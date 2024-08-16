@@ -41,7 +41,7 @@ As this is only a beta version provided "as is" we only have a quick assembly gu
 - LDO Motors for their continuous and precious support. Thanks to LDO, we plan to make a full kit with custom stepper
 - E3D Online for providing a free hotend for development
 - All my Patreons, would have been impossible without their help
-- The (fan duct knob)[https://www.printables.com/model/113157-bear-extruder-v1-fan-duct-knob] by Amelia Marie Collins
+- The [fan duct knob](https://www.printables.com/model/113157-bear-extruder-v1-fan-duct-knob) by Amelia Marie Collins
 - The 602 Wasteland Discord community for their precious knowledge, advice and great talks
 - Prusa Research for their MK2.5 and MK3 designs
 - Adrian Bowyer for creating RepRap
