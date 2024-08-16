@@ -6,7 +6,7 @@
   3. [Design Goals](#design-goals)
   4. [Compatibility](#compatibility)
   5. [Bill of Materials](#bill-of-materials)
-  6. [Print Settings](print-settings)
+  6. [Print Settings](#print-settings)
   7. [Assembly Guide](#assembly-guide)
   8. [Configuration](#configuration)
   9. [Credits and Thank you](#credits-and-thank-you)
