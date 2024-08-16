@@ -5,9 +5,12 @@
   2. [Project Status](#project-status)
   3. [Design Goals](#design-goals)
   4. [Compatibility](#compatibility)
-  5. [Assembly Guide](#assembly-guide)
-  6. [Credits and Thank you](#credits-and-thank-you)
-  7. [Licence](#licence)
+  5. [Bill of Materials](#bill-of-materials)
+  6. [Print Settings](print-settings)
+  7. [Assembly Guide](#assembly-guide)
+  8. [Configuration](#configuration)
+  9. [Credits and Thank you](#credits-and-thank-you)
+  10. [Licence](#licence)
 
 ## Introduction 
 
@@ -31,9 +34,21 @@ The usability is another strong goal of this extruder. Four screws and you can a
 
 *to do*
 
+## Bill of Materials
+
+*to do*
+
+## Print Settings
+
+*to do*
+
 ## Assembly Guide
 
 As this is only a beta version provided "as is" we only have a quick assembly guide.
+
+## Configuration
+
+*to do*
 
 ## Credits and Thank you
 
