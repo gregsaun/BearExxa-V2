@@ -4,7 +4,7 @@
   1. [Introduction](#introduction)
   2. [Project Status](#project-status)
   3. [Design Goals](#design-goals)
-  4. [Compatibility](#conpatibility)
+  4. [Compatibility](#compatibility)
   5. [Assembly Guide](#assembly-guide)
   6. [Credits and Thank you](#credits-and-thank-you)
   7. [Licence](#licence)
