@@ -1,5 +1,14 @@
 # BearExxa V2
 
+## Table of contents
+  1. [Introduction](#introduction)
+  2. [Project Status](#project-status)
+  3. [Design Goals](#design-goals)
+  4. [Compatibility](#conpatibility)
+  5. [Assembly Guide](#assembly-guide)
+  6. [Credits and Thank you](#credits-and-thank-you)
+  7. [Licence](#licence)
+
 ## Introduction 
 
 This is the repository for the Bear Extruder and X axis version 2. The BearExxa V2 is an extruder designed for Prusa MK2.5(S, S+) and MK3(S, S+). It is the successor of [github.com/gregsaun/bear_extruder_and_x_axis](https://github.com/gregsaun/bear_extruder_and_x_axis). Like the previous extruder, it's fully open source including native CAD files.
@@ -18,17 +27,22 @@ Despite its larger motor than what's commonly used these days, a lot of work hav
 
 The usability is another strong goal of this extruder. Four screws and you can access the the hobb gears. You van easily remove the hotend fan duct with a thumb screw to make nozzle swaps a breeze. The hobb gear tension has a visual way to adjust the standard tension. With 3 screws you can remove the X carriage back and access all the wiring easily. The belt tension is very easy and has large adjustments.
 
+## Compatibility
+
+*to do*
+
 ## Assembly Guide
 
 As this is only a beta version provided "as is" we only have a quick assembly guide.
 
-## Credits
-- Paul, Josh, Shadowbunny, Flo
-- LDO Motors fo r their continuous and precious support. Thanks to LDO, we plan to make a full kit with custom stepper
+## Credits and Thank you
+
+- Paul_GD, vertigo235, Shadowbunny, Flobler
+- LDO Motors for their continuous and precious support. Thanks to LDO, we plan to make a full kit with custom stepper
 - E3D Online for providing a free hotend for development
 - All my Patreons, would have been impossible without their help
-- 602 Wasteland Discord for theirnprecious talks
-- The shroud knob by X
+- The (fan duct knob)[https://www.printables.com/model/113157-bear-extruder-v1-fan-duct-knob] by Amelia Marie Collins
+- The 602 Wasteland Discord community for their precious knowledge, advice and great talks
 - Prusa Research for their MK2.5 and MK3 designs
 - Adrian Bowyer for creating RepRap
 
