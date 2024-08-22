@@ -14,7 +14,7 @@
 
 ## Introduction 
 
-This is the repository for the Bear Extruder and X Axis version 2 (BearExxa V2). It consists in an extruder and X axis designed to imorove Prusa MK2.5(S, S+) and MK3(S, S+) print quality, speed and reliability. It's the successor of [github.com/gregsaun/bear_extruder_and_x_axis](https://github.com/gregsaun/bear_extruder_and_x_axis). Like the previous extruder, it's fully open source including native CAD files.
+This is the repository for the Bear EXtruder and X Axis Version 2 (BearExxa V2). It consists in an extruder and X axis designed to improve Prusa MK2.5(S, S+) and MK3(S, S+) print quality, speed, reliability and usability. It's the successor of the [Bear Extruder and X axis V1](https://github.com/gregsaun/bear_extruder_and_x_axis). Like the previous extruder, it's fully open source including native CAD files.
 
 ## Project status
 
@@ -61,8 +61,8 @@ As this is only a beta version provided "as is" we only have a quick assembly gu
 - The [fan duct knob](https://www.printables.com/model/113157-bear-extruder-v1-fan-duct-knob) by Amelia Marie Collins
 - [René Jura](https://rene-jurack.de) for helping me on CFD simulation for the nozzle fan duct
 - The 602 Wasteland Discord community for their precious knowledge, advice and great talks
-- [PoiTEE](https://x.com/PoiTEE)fir the great talks
-- [FilamentFrenzy](https://x.com/FilamentFrenzy) for having tested and make noise for this extruder when we thought we were close to the release
+- [PoiTEE](https://x.com/PoiTEE) for the great talks
+- [FilamentFrenzy](https://x.com/FilamentFrenzy) for having tested and make noise for this extruder when we thought we were close to the release (but we were not)
 - Prusa Research for their MK2.5S and MK3S designs
 - Adrian Bowyer for creating RepRap
 
