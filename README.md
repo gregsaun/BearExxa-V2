@@ -36,7 +36,7 @@ Reliability is a strong goal of this extruder. We use a NEMA 17 pancake motor to
 
 #### Extruder weight
 
-Despite a larger motor than what's commonly used these days, a lot of work have been implemented to make the extruder as light as possible, even lighter than some widely use extruders widely used by the community. But first it is good to remember that a bed slinger printer doesn't have to carry the weight of the gantry like on a CoreXY machine, which means the mass in motion is lighter than we could first think on the extruder side. However, obviously, the bed is heavy and will be the bottleneck.
+Despite a larger motor than what's commonly used these days, a lot of work have been implemented to make the extruder as light as possible, even lighter than some extruders widely used in the community. But first it's good to remember that a bed slinger printer doesn't have to carry the weight of the gantry like on a CoreXY machine, which means the mass in motion is lighter than we could first think on the extruder side. However, obviously, the bed is heavy and will be the bottleneck.
 
 On our design, we reduced the weight by using a light and small hotend, using a single stage spur gears instead of heavier planetary gears, we have a very low number of screws, we use small hobb gears, we have carefully selected the hardware, we do not add extra useless feature and we made compact printed parts.
 
