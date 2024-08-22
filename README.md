@@ -50,19 +50,22 @@ As this is only a beta version provided "as is" we only have a quick assembly gu
 
 *to do*
 
-## Credits and Thank you
+## Credits and Thank You
 
-- The close help from Flobler, Paul_GD, Shadowbunny and vertigo235
-- All my Patreons, would have been impossible without their help
+- The close help of Flobler, Paul_GD, Shadowbunny and vertigo235
+- All my Patreons, it would have been impossible without their help
 - LDO Motors for their continuous and precious support. Thanks to LDO, we plan to make a full kit with custom stepper
 - E3D Online for providing a free hotend for development and answering my questions
 - The [fan duct knob](https://www.printables.com/model/113157-bear-extruder-v1-fan-duct-knob) by Amelia Marie Collins
-- [René Jura](https://rene-jurack.de) for helping me on CFD simulation and goals
+- [René Jura](https://rene-jurack.de) for helping me on CFD simulation for the nozzle fan duct
 - The 602 Wasteland Discord community for their precious knowledge, advice and great talks
+- [PoiTEE](https://x.com/PoiTEE)fir the great talks
 - [FilamentFrenzy](https://x.com/FilamentFrenzy) for having tested and make noise for this extruder when we thought we were close to the release
 - Prusa Research for their MK2.5S and MK3S designs
 - Adrian Bowyer for creating RepRap
 
 ## Licence
 
-The Bear Extruder v2 is an open-source hardware project. All the content of this repository is licensed under CERN Open Hardware Licence Version 2 - Permissive, the [full license text is available here](https://ohwr.org/project/cernohl/-/wikis/uploads/3eff4154d05e7a0459f3ddbf0674cae4/cern_ohl_p_v2.txt).
+The Bear Extruder v2 is an open-source hardware project that has been created from scratch by Gregoire Saunier with the help or inspiration from people and companies listed under "Credits and Thank You" as well as contributions linked to this repository.
+
+All the content of this repository is licensed under CERN Open Hardware Licence Version 2 - Permissive. The full license text is available [here](https://ohwr.org/project/cernohl/-/wikis/uploads/3eff4154d05e7a0459f3ddbf0674cae4/cern_ohl_p_v2.txt), a copy of this text is also available in this repository at `./LICENSE`.
