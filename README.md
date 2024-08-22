@@ -18,6 +18,8 @@ This is the repository for the Bear EXtruder and X Axis Version 2 (BearExxa V2).
 
 ## Project status
 
+Status: Beta
+
 This project is on hold for now. It's provided "as is" for any adventurous users interesting in having a good extruder for their Prusa or Bears. The Beta version of the BearExxa V2 provided here at the moment is fully functional and safe to use. The end goal is to provide a kit with all the parts and an improved stepper for better print quality and reliability (see Design Goals)
 
 ## Design Goals
