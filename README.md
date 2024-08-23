@@ -14,7 +14,7 @@
 
 ## Introduction 
 
-This is the repository for the Bear EXtruder and X Axis Version 2 (BearExxa V2). It consists in an extruder and X axis designed to improve Prusa MK2.5(S, S+) and MK3(S, S+) print quality, speed, reliability and usability. It's the successor of the [Bear Extruder and X axis V1](https://github.com/gregsaun/bear_extruder_and_x_axis). Like the previous extruder, it's fully open source including native CAD files.
+This is the repository for the Bear EXtruder and X Axis Version 2 (BearExxa V2). It consists in an extruder and X axis designed to improve Prusa MK2.5(S, S+) and MK3(S, S+) print quality, speed, reliability and usability. It's the successor of the [Bear Extruder and X axis V1](https://github.com/gregsaun/bear_extruder_and_x_axis). Like the previous extruder, it's fully open source.
 
 ## Project status
 
@@ -28,7 +28,11 @@ The main goals of this extruder is to use a better hotend and geared extruder to
 
 #### Print quality
 
-*to do*
+This extruder improves print quality by using a geared extruder, a well engineered hotend and several design features. The first crucial aspect to get quality prints is to handle the filament precisely and rigidly down to the melt zone. To achieve this we use a perfectly aligned, short and smooth filament path to reduce any potential friction. We are also using the small set of the dual Bondtech hobb gears as the smaller diameters allow us to grab closer the filament going out of the hobb gears. It reduces chances for the filament to go out of the path like it can happen with flexible filaments. Then comes the hotend, we choose the heatsink and fan to have the sharpest transition possible in the heatbreak. Furthermore, we made sure to have a free space bellow the heatsink to improve the heatsink cooling where it's the matter the most (at the top of the heatbreak). All these features improve random extrusion artifacts and increase the accuracy of your prints.
+
+The extruder use a gear ratio of 3:1 (in beta) or almost 4:1 (in the future final release). We took care of using appropriate teeth count and size to have a smooth rotation as well as reducing the wear on the teeth. We believe that the print quality should be the same even after many hours of use. We are using enough motor torque to be sure that when the pressure increase in the hotend (wide extrusion, partial clog, too high flow rate) we don't make the motor steps to much visible. In the final version of the BearExxa V2 we will use a custom motor with a very concentric gear that will reduce variation in the rotation. We are also planing to use the all in one piece Bondtech shaft and hobb gear to once again reduce any variations. All those features improve the so called "moire pattern" (basket wave / wood grain pattern) or, in other words, the repetitive extrusion artifacts.
+
+Finally, we have made several tests comparing single vs dual gears and we couldn't see a difference. We also asked the Bear community to test on their side and they had the same conclusion. We understand there is a potential gear meshing issue but we think it can only potentially happen during retraction or maybe they are too small to be visible. We also think that some of our design decisions are potentially helping to minimise this issue (rigid extruder cavity, tight tolerances to align the gears, good amount of tension with visible indicator, precise filament path, etc.). We may later provide a mod to use a single gear for making your own conclusion. We are keeping an eye on this topic and for now we haven't seen good enough testing proving there is a noticeable difference.
 
 #### Reliability
 
