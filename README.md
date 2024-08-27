@@ -89,7 +89,7 @@ As this is only a beta version provided "as is" we only have a quick assembly gu
 - [René Jura](https://rene-jurack.de) for helping me on CFD simulation for the nozzle fan duct
 - The 602 Wasteland Discord community for their precious knowledge, advice and great talks
 - Keith Bennett for making the [Prusa AIO firmware](https://github.com/thisiskeithb/PrusaAIO) compatible
-- [PoiTEE](https://x.com/PoiTEE) for the great talks
+- [PoiTEE](https://x.com/PoiTEE) for the great talks and testing
 - [FilamentFrenzy](https://x.com/FilamentFrenzy) for having tested and make noise for an early version of BearExxa v2
 - Prusa Research for their MK2.5S and MK3S designs
 - Adrian Bowyer for creating RepRap
