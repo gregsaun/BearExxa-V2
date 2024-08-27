@@ -9,8 +9,9 @@
   6. [Print Settings](#print-settings)
   7. [Assembly Guide](#assembly-guide)
   8. [Configuration](#configuration)
-  9. [Credits and Thank you](#credits-and-thank-you)
-  10. [License](#license)
+  9. [Optional Parts](#optional-parts)
+  10. [Credits and Thank you](#credits-and-thank-you)
+  11. [License](#license)
 
 ## Introduction 
 
@@ -71,6 +72,10 @@ The usability is another strong goal of this extruder. Thanks to the E3D Revo ec
 As this is only a beta version provided "as is" we only have a quick assembly guide.
 
 ## Configuration
+
+*to do*
+
+## Optional Parts
 
 *to do*
 
