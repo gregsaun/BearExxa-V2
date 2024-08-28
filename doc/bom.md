@@ -40,7 +40,7 @@
 | Bondtech shaft 3x32                           |     1    | https://www.bondtech.se/product/shafts/         |
 | MR105 ZZ bearing (10x5x4)                     |     2    |                                                 |
 | E3D Revo Micro with 0.4mm nozzle              |     1    | https://e3d-online.com/products/revo-micro      |
-| Pancake motor Nema 17 25mm LDO 42STH25-1004AC or Bondtech BMG OSM 17HS10-0704S |     2    | https://www.bondtech.se/product/nema17-pancake-stepper-25mm/ |
+| Pancake motor Nema 17 25mm LDO 42STH25-1004AC or Bondtech BMG OSM 17HS10-0704S |     1    | https://www.bondtech.se/product/nema17-pancake-stepper-25mm/ |
 | Prusa filament sensor with cable              |     1    |                                                 |
 | Prusa 7mm steel ball                          |     1    |                                                 |
 | Prusa 20x6x2 magnet                           |     1    |                                                 |
