@@ -17,6 +17,8 @@
 
 This is the repository for the Bear EXtruder and X Axis Version 2 (BearExxa V2). It consists of an extruder and X axis designed to improve Prusa MK2.5(S, S+) and MK3(S, S+) print quality, speed, reliability and usability. It's the successor of the [Bear Extruder and X axis V1](https://github.com/gregsaun/bear_extruder_and_x_axis). Like the previous extruder, it's fully open source.
 
+![BearExxa V2 CAD assemnly](extra/images/assembly_01.jpg)
+
 ## Project status
 
 Status: Beta
