@@ -61,11 +61,16 @@ The usability is another strong goal of this extruder. Thanks to the E3D Revo ec
 
 ## Bill of Materials
 
-*to do*
+The BOM includes the list of printed parts and all hardware you need to build the BearExxa V2.
+
+[Read the BOM here](doc/bom.md).
 
 ## Print Settings
 
-*to do*
+:warning: Warning: It is important to follow the recommended print settings and to **calibrate your extrusion multiplier** before printing the parts (for each and every spool that you use). [Check our calibration guide here](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8).
+
+[Read the print settings here](doc/print_settings.md).
+
 
 ## Assembly Guide
 
