@@ -25,7 +25,7 @@ This project is on hold for now. It's provided "as is" for any adventurous users
 
 ## Design Goals
 
-The main goals of the BearExxa V2 is to focus on print quality, reliability, usability, precision, speed and to solve the inconsistent extrusion issue (602 issue).
+The main goals of the BearExxa V2 are to focus on print quality, reliability, usability, precision, speed and to solve the inconsistent extrusion issue (602 issue).
  
 :arrow_right: [Read the detailed design goals here](doc/design_goals.md)
 
@@ -49,6 +49,8 @@ The BOM includes the list of printed parts and all hardware you need to build th
 ## Assembly Guide
 
 As this is only a beta version provided "as is" we only have a quick assembly guide.
+
+*to do*
 
 ## Configuration
 
