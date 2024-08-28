@@ -16,7 +16,7 @@ Finally, we have made several tests comparing single vs dual gears and we couldn
 
 Reliability is a strong goal of this extruder. We use a NEMA 17 pancake motor to keep the hobb gears and the extruder cavity as cold as possible during extensive PLA prints in enclosure. After multiple testing with belts and planetary gears we found that a single stage of spur gears is the best compromise. It's light, easy to assemble and has a very low part count, which means less parts can fail. We use the Bondtech gear shaft and hobb gears, but we replaced the original bearings by larger ones to increase lifespan (and smoothness). We use the E3D Revo Micro hotend for its professional support and compliances with worldwide regulations. Every printed parts and features have been tested carefully. We also ensure that no special adjustments or tools are required during the assembly and maintenance. With the final release, we will provide detailed assembly guide, as we always do, to avoid any potential assembly issues.
 
-### Too head weight (and speed)
+### Weight, rigidity and speed
 
 Despite a larger motor than what's commonly used these days, a lot of work have been implemented to make the extruder as light as possible, even lighter than some extruders widely used in the community. But first it's good to remember that a bed slinger printer doesn't have to carry the weight of the gantry like on a CoreXY machine, which means the mass in motion is lighter than we could first think on the extruder side. However, obviously, the bed is heavy and will be the bottleneck.
 
