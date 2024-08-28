@@ -18,7 +18,7 @@
 | Smooth rods, dia 8mm, H6, length 370mm               |     2    |                                      |
 
 
-## Hardware Extruder
+### Hardware Extruder
 
 | Part                                          | Quantity | Comment / Links                                 |
 |-----------------------------------------------|:--------:|:------------------------------------------------|
@@ -53,7 +53,7 @@
 | Zip ties 2.5x100mm                            |     4    |                                                 |
 
 
-## Printed Parts
+### Printed Parts
 
 | Part                       | Quantity | Comment                     |
 |----------------------------|:--------:|:----------------------------|
