@@ -4,7 +4,7 @@
 
 This guide is only for the beta version. It's provided at your own risk.
 
-  - [Part 1](images/quick_assembly_01.jpg?raw=true)
+  - [Part 1](images/quick_assembly_01.jpg)
   - [Part 2](images/quick_assembly_02.jpg?raw=true)
   - [Part 3](images/quick_assembly_03.jpg?raw=true)
   - [Part 4](images/quick_assembly_04.jpg?raw=true)
