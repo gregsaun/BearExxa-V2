@@ -2,16 +2,17 @@
 
 ## Table of contents
   1. [Introduction](#introduction)
-  2. [Project Status](#project-status)
-  3. [Design Goals](#design-goals)
-  4. [Compatibility](#compatibility)
-  5. [Bill of Materials](#bill-of-materials)
-  6. [Print Settings](#print-settings)
-  7. [Assembly Guide](#assembly-guide)
-  8. [Configuration](#configuration)
-  9. [Optional Parts](#optional-parts)
-  10. [Credits and Thank you](#credits-and-thank-you)
-  11. [License](#license)
+  1. [Project Status](#project-status)
+  1. [Disclaimer](#disclaimer)
+  1. [Design Goals](#design-goals)
+  1. [Compatibility](#compatibility)
+  1. [Bill of Materials](#bill-of-materials)
+  1. [Print Settings](#print-settings)
+  1. [Assembly Guide](#assembly-guide)
+  1. [Configuration](#configuration)
+  1. [Optional Parts](#optional-parts)
+  1. [Credits and Thank you](#credits-and-thank-you)
+  1. [License](#license)
 
 ## Introduction 
 
@@ -24,6 +25,10 @@ This is the repository for the Bear EXtruder and X Axis Version 2 (BearExxa V2).
 Status: Beta
 
 This project is on hold for now. It's provided "as is" for any adventurous users interested in having a good extruder for their Prusa or Bears. The Beta version of the BearExxa V2 provided here at the moment is fully functional and safe to use. The end goal is to provide a kit with all the parts and an improved stepper for better print quality and reliability (see Design Goals)
+
+## Disclaimer
+
+This project is only to provide an alternative extruder and X axis to your Prusa printers. We cannot be taken responsible for any damages you may do by installing this project nor any decision Prusa would take on you (for example: loosing warranty). This project is not for beginner and is at your own risk.
 
 ## Design Goals
 
@@ -52,7 +57,7 @@ The BOM includes the list of printed parts and all hardware you need to build th
 
 As this is only a beta version provided "as is" we only have a quick assembly guide.
 
-*to do*
+:arrow_right: [Read the quick assembly guide for beta version here](doc/quick_assembly_guide/README.md)
 
 ## Configuration
 
