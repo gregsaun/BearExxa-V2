@@ -86,4 +86,6 @@ As this is only a beta version provided "as is" we only have a quick assembly gu
 
 The Bear Extruder v2 is an open-source hardware project that has been created from scratch by Grégoire Saunier with the help or inspiration from people and companies listed under "Credits and Thank You" as well as contributions linked to this repository.
 
-All the content of this repository is licensed under CERN Open Hardware Licence Version 2 - Permissive. The full license text is available [here](https://ohwr.org/project/cernohl/-/wikis/uploads/3eff4154d05e7a0459f3ddbf0674cae4/cern_ohl_p_v2.txt), a copy of this text is also available in this repository at `./LICENSE`.
+All texts, images and animations included in this repository are licenced under the terms of CC-BY-SA 4.0. The full licence text of CC-BY-SA 4.0 is available in this repository at `./LICENSE-CC-BY-SA-4.0` . Read more about this licence [here](https://creativecommons.org/licenses/by-sa/4.0/).
+
+All the content of this repository with the exclusion of texts, images and animations are licenced under the terms of CERN-OHL-P v2. The full license text of CERN-OHL-P v2 is available in this repository at `./LICENSE` . Read more about this licence [here](https://cern-ohl.web.cern.ch/).
