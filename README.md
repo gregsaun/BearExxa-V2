@@ -112,7 +112,7 @@ Massive thank you in advance :heart:
 
 ## Credits And Thank You
 
-- The close help of Florian Däubler, [Paul_GD](https://github.com/PaulGD03), [Schaun Doe](https://www.printables.com/@ShaunDoe), Selene and  [vertigo235](https://www.printables.com/@vertigo235_33)
+- The close help of Florian Däubler, [Paul_GD](https://github.com/PaulGD03), [Schaun Doe](https://www.printables.com/@ShaunDoe), Sleene and  [vertigo235](https://www.printables.com/@vertigo235_33)
 - All [my Patreons](https://www.patreon.com/gregsaun), it would have been impossible without their help
 - LDO Motors for their continuous and precious support. Thanks to LDO, we plan to make a full kit with custom stepper
 - E3D Online for providing a free hotend for development and answering my questions
@@ -130,6 +130,6 @@ Massive thank you in advance :heart:
 
 The Bear Extruder v2 is an open-source hardware project that has been created from scratch by Grégoire Saunier with the help or inspiration from people and companies listed under "Credits and Thank You" as well as contributions linked to this repository.
 
-All texts, images and animations included in this repository are licensed under the terms of CC-BY-SA 4.0. The full license text of CC-BY-SA 4.0 is available in this repository at [`./LICENSE-CC-BY-SA-4.0`](./LICENSE-CC-BY-SA-4.0). Read more about this license [here](https://creativecommons.org/licenses/by-sa/4.0/).
+All texts, images and animations in this repository are licensed under the terms of the CC-BY-SA 4.0 license. The full license text of CC-BY-SA 4.0 is available in this repository at [`./LICENSE-CC-BY-SA-4.0`](./LICENSE-CC-BY-SA-4.0). Read more about this license [here](https://creativecommons.org/licenses/by-sa/4.0/).
 
-All the content of this repository with the exception of texts, images and animations is licensed under the terms of CERN-OHL-P v2. The full license text of CERN-OHL-P v2 is available in this repository at [`./LICENSE`](./LICENSE). Read more about this license [here](https://cern-ohl.web.cern.ch/).
+All the content of this repository with the exception of texts, images and animations is licensed under the terms of the CERN-OHL-P v2 license. The full license text of CERN-OHL-P v2 is available in this repository at [`./LICENSE`](./LICENSE). Read more about this license [here](https://cern-ohl.web.cern.ch/).
