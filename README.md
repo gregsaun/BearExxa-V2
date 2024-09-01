@@ -69,7 +69,7 @@ As this is only a beta version provided "as is" we only have a quick assembly gu
 
 ## Credits and Thank You
 
-- The close help of Flobler, Paul_GD, Shadowbunny and vertigo235
+- The close help of Florian Däubler, [Paul_GD](https://github.com/PaulGD03), [Schaun Doe](https://www.printables.com/@ShaunDoe), [vertigo235](https://www.printables.com/@vertigo235_33) and Sleene
 - All my Patreons, it would have been impossible without their help
 - LDO Motors for their continuous and precious support. Thanks to LDO, we plan to make a full kit with custom stepper
 - E3D Online for providing a free hotend for development and answering my questions
