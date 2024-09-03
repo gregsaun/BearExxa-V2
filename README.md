@@ -81,7 +81,9 @@ As this is only a beta version provided "as is" we only have a quick assembly gu
 
 ## Configuration
 
-*to do*
+Before using your BearExxa V2 you need to configure the printer.
+
+➡️ [Read the configuration documentation here](doc/config)
 
 
 ## Optional Parts
