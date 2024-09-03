@@ -130,7 +130,7 @@ Massive thank you in advance :heart:
 
 ## License
 
-The Bear Extruder v2 is an open-source hardware project created from scratch by Grégoire Saunier with the help and inspiration from people and companies listed under "Credits and Thank You" as well as contributions linked to this repository.
+The Bear Extruder v2 is an open-source hardware project created from scratch by Grégoire Saunier with help and inspiration from the people and companies listed under "Credits and Thank You" as well as contributions linked to this repository.
 
 All texts, images, PDF files and animations in this repository are licensed under the terms of the CC-BY-SA 4.0 license. The full license text of CC-BY-SA 4.0 is available in this repository at [`./LICENSE-CC-BY-SA-4.0`](./LICENSE-CC-BY-SA-4.0). Read more about this license [here](https://creativecommons.org/licenses/by-sa/4.0/).
 
