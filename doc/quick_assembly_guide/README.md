@@ -43,7 +43,7 @@ Then Assemble the X Axis :
 
 ### Part 10
 We now need to configure extruder steps per millimeters to 415 and microstepping to 1/16. You can do this with the provided gcode file :
-  1. Download the configuration ZIP file at [../config/prusa_original/config_prusa_original_bearexxav2_beta.zip](../config/prusa_original/config_prusa_original_bearexxav2_beta.zip)
+  1. Download the configuration ZIP file at [../config/prusa_original/config_prusa_original_bearexxav2_beta.zip](https://github.com/gregsaun/BearExxa-V2/blob/main/doc/config/prusa_original/config_prusa_original_bearexxav2_beta.zip?raw=true)
   1. Extract the ZIP file and copy `bearexxa2_config.gcode` to an SD card
   1. Insert the SD card in your printer and print to `bearexxa2_config.gcode` file
   1. You can now remove the SD card and delete the file
