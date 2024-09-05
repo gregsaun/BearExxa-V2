@@ -18,28 +18,28 @@ Then Assemble the X Axis :
   1. Follow all steps from 1 to 15
 
 ### Part 2
-[![Part 2](images/quick_assembly_02.jpg)](images/quick_assembly_02.jpg?raw=true)
+[![Part 2](images/quick_assembly_02.jpg)](images/quick_assembly_02.jpg)
 
 ### Part 3
-[![Part 3](images/quick_assembly_03.jpg)](images/quick_assembly_03.jpg?raw=true)
+[![Part 3](images/quick_assembly_03.jpg)](images/quick_assembly_03.jpg)
 
 ### Part 4
-[![Part 4](images/quick_assembly_04.jpg)](images/quick_assembly_04.jpg?raw=true)
+[![Part 4](images/quick_assembly_04.jpg)](images/quick_assembly_04.jpg)
 
 ### Part 5
-[![Part 5](images/quick_assembly_05.jpg)](images/quick_assembly_05.jpg?raw=true)
+[![Part 5](images/quick_assembly_05.jpg)](images/quick_assembly_05.jpg)
 
 ### Part 6
-[![Part 6](images/quick_assembly_06.jpg)](images/quick_assembly_06.jpg?raw=true)
+[![Part 6](images/quick_assembly_06.jpg)](images/quick_assembly_06.jpg)
 
 ### Part 7
-[![Part 7](images/quick_assembly_07.jpg)](images/quick_assembly_07.jpg?raw=true)
+[![Part 7](images/quick_assembly_07.jpg)](images/quick_assembly_07.jpg)
 
 ### Part 8
-[![Part 8](images/quick_assembly_08.jpg)](images/quick_assembly_08.jpg?raw=true)
+[![Part 8](images/quick_assembly_08.jpg)](images/quick_assembly_08.jpg)
 
 ### Part 9
-[![Part 9](images/quick_assembly_09.jpg)](images/quick_assembly_09.jpg?raw=true)
+[![Part 9](images/quick_assembly_09.jpg)](images/quick_assembly_09.jpg)
 
 ### Part 10
 We now need to configure extruder steps per millimeters to 415 and microstepping to 1/16. You can do this with the provided gcode file :
@@ -53,7 +53,7 @@ The current E3D Micro hotend fan does not have a tachometer wire so we need to d
   1. Select `OFF`
 
 Finally, follow our guide "Final adjustments and calibration" like this :
-  1. With a web browser, go to [https://guides.bear-lab.com -> Extruder and X Axis -> Bear Extruder> Assembly guide -> 5. Final adjustments and calibration](https://guides.bear-lab.com/Guide/5.+Final+adjustments+and+calibration/38?lang=en(
+  1. With a web browser, go to [https://guides.bear-lab.com -> Extruder and X Axis -> Bear Extruder> Assembly guide -> 5. Final adjustments and calibration](https://guides.bear-lab.com/Guide/5.+Final+adjustments+and+calibration/38?lang=en)
   1. Follow steps 1 to 12
   1. At step 13, temporarily plug your previous 40x40 hotend fan (e.g. Noctua) before running the self test. Once the fan detection is done, plug back the E3D Revo Micro fan
   1. Follow steps 14 to 16
