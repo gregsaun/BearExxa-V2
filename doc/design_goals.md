@@ -31,3 +31,7 @@ The final release will use a custom extruder motor by LDO Motors. It was a diffi
 ### Usability
 
 The usability is another strong goal of this extruder. Thanks to the E3D Revo ecosystem you can swap nozzle with two fingers in a few seconds. And to make this even easier, you can remove the hotend fan duct with a thumb screw. The hobb gear tension has a visual way to adjust the standard tension. The belt tensioner is easy to use and has a long adjustment range. You only need to remove 4 screws to access all gears for easy cleaning. With 3 other screws you can remove the X carriage back and access all the wiring freely.
+
+TO DO
+
+- Add reliability section: vertical nozzle fan, X carriage bearing mounts and belt position, hotend airflow, filament path shirt and in single piece, internal reinforcements, detailed documentation, etc.
