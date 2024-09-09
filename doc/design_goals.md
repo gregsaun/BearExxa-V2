@@ -2,6 +2,18 @@
 
 ## Design Goals
 
+### Table of contents
+
+1. [Introduction](#introduction)
+1. [Print quality](#print-quality)
+1. [Reliability](#reliability)
+1. [Weight, rigidity and speed](#weight-rigidity-and-speed)
+1. [Custom extruder motor](#custom-extruder-motor)
+1. [Usability and maintenance](#usability-and-maintenance)
+1. [FAQ](#faq)
+
+### Introduction
+
 The main goals of the BearExxa V2 are to use a better hotend and geared extruder to improve the print quality, reliability, usability, precision, speed and to solve inconsistent extrusion issue (602 issue).
 
 
@@ -28,7 +40,9 @@ On our design, we reduced the weight by using a light and small hotend, using a 
 As you can see we took care of every weight reduction that matters but we didn't stop there. The X axis is stiffer thanks to several design details: we use clamps on the Z axis bearings, X motor is closer to the Z axis, the belt tensioner is stiff and we optimized how deep the smooth rods are inserted in the X ends.
 
 
-### Custom motor (not for the Beta release)
+### Custom extruder motor
+
+⚠️ Not for the Beta release, will only be for RC and final releases.
 
 The final release will use a custom extruder motor by LDO Motors. It was a difficult choice to take as we want to be as open hardware as possible but the improvements are significant. This custom motor uses a carefully selected gear ratio for smoother print quality and  minimising teeth wear. It also has an extremely concentric motor gear reducing variations due to the gearing and it's construction even helps to reduce the total weight. Finally the motor specs are also optimized for original Prusa printers to provide a safe amount of torque on all occasions as well as keeping the motor cold. We chose a motor that has just enough torque to grind the filament in case of a blockage. This is to avoid problems where the spool or the filament path has lots of friction (didn't we all have a failed print due to this?), to fight slightly wrong settings that could force on the hotend's flow or, to resolve a small heat creep or, why not to later automate things like cold pulls. We believe that a finished print is always better than a failed one that will go into the trash bin (even if the quality is a bit below what you wanted to achieve). We took care of making the gears very easy to disassemble for fast cleaning in case of blockage and without the need to realign something. A guide will also be provided for this.
 
@@ -51,3 +65,6 @@ PETG has an excellent layer bonding, is easy to print, has higher precision due 
 
 #### Why you don't use a smaller extruder motor?
 We have explained the reason in details in the sections "Reliability" and "Weight, rigidity and speed". In a nutshell, the extra weight is not an issue and we can have a colder motor with higher torque.
+
+#### Why do you use the Revo Micro heatsink and not the Revo Voron heatsink?
+The Revo Micro heatsink has slightly more surface in contact with the airflow, especially when used with a smaller and lighter fan. The round shape is also easier to optimize for optimal airflow. The screw mount may sound like it may rotate but we did a self tightening system that avoid this to happen.
