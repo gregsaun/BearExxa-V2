@@ -68,3 +68,6 @@ We have explained the reason in details in the sections "Reliability" and "Weigh
 
 #### Why do you use the Revo Micro heatsink and not the Revo Voron heatsink?
 The Revo Micro heatsink has slightly more surface in contact with the airflow, especially when used with a smaller and lighter fan. The round shape is also easier to optimize for optimal airflow. The screw mount may sound like it may rotate but we did a self tightening system that avoid this to happen.
+
+#### Why don't you officially support other hotends?
+Using a single hotend allow us to optimize a lot of design's aspects like size, weight, filament path, etc. Supporting a single hotend means we can also have a more reliable testing and provide quality support. Finally, we choose E3D-Online Ltd. because their products have all the worldwide safety compliances, they provide a full ecosystem, they made deep research and engineering on how a hotend works and they have a professional support for their customers.
