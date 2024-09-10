@@ -34,7 +34,7 @@ This project is on hold for now. It's provided "as is" for any adventurous users
 
 ## Disclaimer
 
-This project is only to provide an alternative extruder and X axis to your Prusa printers. We cannot be taken responsible for any damages you may do by installing this project nor any decision Prusa would take on you (for example: loosing warranty). This project is not for beginner and is at your own risk.
+This project is only to provide an alternative extruder and X axis to your Prusa printers. We are not related to Prusa Research. We cannot be taken responsible for any damages you may do by using this project nor any decision Prusa would take on you (for example: loosing warranty). This project is not for beginner and is at your own risk.
 
 
 ## Design Goals
