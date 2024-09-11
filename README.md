@@ -27,7 +27,7 @@ This is the repository for the Bear EXtruder and X Axis Version 2 (BearExxa V2).
 
 ## Project Status
 
-Status: Currently building the repository for the Beta version
+Status: Currently building the repository for the Beta release
 
 This project is on hold for now. It's provided "as is" for any adventurous users interested in having a good extruder for their Prusa or Bears. The Beta version of the BearExxa V2 provided here at the moment is fully functional and safe to use. The end goal is to provide a kit with all the parts and an improved stepper for better print quality and reliability (see Design Goals)
 
@@ -55,11 +55,11 @@ The BearExxa V2 is compatible with both Original and Bear frames of Prusa MK2.5(
 The stock Prusa firmware is supported with the following conditions:
 - Self tests and XYZ calibrations need to be done with the [Bear calibration firmware](https://github.com/bear-lab-3d/Prusa-Firmware/releases/latest). All the normal printing routines, including first layer calibrations, will work as normal with the stock Prusa firmware. Note that you can also safely use the Bear calibration firmware for printing daily
 - The thermal algorithm for the hotend introduced in the very latest Prusa firmwares can sometimes cause issues with the fast Revo heating. There are commands to use the previous standard method (we provide the documentation to do it)
-- For the beta version only: you will need to temporarily plug the stock hotend fan during self test procedure. The final version will be sold as a kit with a compatible fan and this will not be needed anymore
+- For the **beta** release only: you will need to disable fan checks for prints and temporarily plug the stock hotend fan during self test procedure. The final version will be sold as a kit with a compatible fan and this will not be needed anymore
 
 This is the firmware we recommend for the best safeties and to keep all the functionalities provided by the Prusa firmware. We can provide full support to our customers with this firmware.
 
-The BearExxa V2 doesn't disable or affect any safeties from the original Prusa firmware (and same applies for the Bear calibration firmware). The E3D Revo hotend is actually providing an extra safety in case of thermal runaway compared to the E3D V6 used in the Original Prusa.
+The final release of BearExxa V2 will not disable or affect any safeties from the original Prusa firmware (and same applies for the Bear calibration firmware). The E3D Revo hotend is actually providing an extra safety in case of thermal runaway compared to the E3D V6 used in the Original Prusa.
 
 #### Other firmwares
 
@@ -114,7 +114,7 @@ Before using your BearExxa V2 you need to configure the printer.
 
 ## Community
 
-Here are the places were The Bear project is the most active on:
+Here are the places where the Bear project is the most active on:
 
 * Discord server of "The 602 Wasteland" community : [discordapp.com/invite/hYUjSnW](https://discordapp.com/invite/hYUjSnW)
 * Twitter : [@gregoiresaunier](https://twitter.com/gregoiresaunier)
