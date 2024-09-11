@@ -46,12 +46,24 @@ The main goals of the BearExxa V2 are to focus on print quality, reliability, us
 
 ## Compatibility
 
-The BearExxa V2 is compatible with Original and Bear frames of Prusa MK2.5(S, S+) and MK3(S, S+) with the following conditions:
-- Self tests and calibration need to be done with the [Bear calibration firmware](https://github.com/bear-lab-3d/Prusa-Firmware/releases/latest). Note that you can safely also use this firmware for printing
-- The thermal algorithm for the hotend introduced in the very latest Prusa firmwares can sometimes cause issues with the fast Revo heating. There are commands to disable it and use the standard method (we provide the documentation to do it)
-- For the beta version only: you will need to temporarily plug the stock hotend fan during self test procedure. The final version will be sold as a kit with a compatible fan
+The BearExxa V2 is compatible with both Original and Bear frames of Prusa MK2.5(S, S+) and MK3(S, S+).
 
-The BearExxa V2 is also compatible with the [Prusa AIO Marlin 2.0 firmware](https://github.com/thisiskeithb/PrusaAIO). This firmware can run on some 32b boards.
+### Original Prusa firmware
+
+The stock Prusa firmware is fully supported with the following conditions:
+- Self tests and XYZ calibrations need to be done with the [Bear calibration firmware](https://github.com/bear-lab-3d/Prusa-Firmware/releases/latest). All the normal printing routing, including first layer calibrations, will work as normal with the stock Prusa firmware. Note that you can also safely use the Bear calibration firmware for printing daily
+- The thermal algorithm for the hotend introduced in the very latest Prusa firmwares can sometimes cause issues with the fast Revo heating. There are commands to use the previous standard method (we provide the documentation to do it)
+- For the beta version only: you will need to temporarily plug the stock hotend fan during self test procedure. The final version will be sold as a kit with a compatible fan and this will not be needed anymore
+
+This is the firmware we recommend for the best safeties and to keep all the functionalities provided by the Prusa firmware.
+
+The BearExxa V2 doesn't disable or affect any safeties from the original Prusa firmware (and same applies for the Bear calibration firmware). The E3D Revo hotend is actually providing an extra safety in case of thermal runaway compared to the E3D V6 used in the Original Prusa.
+
+### Other firmwares
+
+💡 We can only provide limited support to these firmwares.
+
+The BearExxa V2 is also compatible with the [Prusa AIO Marlin 2.x firmware](https://github.com/thisiskeithb/PrusaAIO). This firmware can run on some 32b boards. Thanks Keith for this impressive work!
 
 We will provide main Klipper parameters for the final version of BearExxa V2.
 
