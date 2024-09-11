@@ -74,23 +74,23 @@ We will provide main Klipper parameters for the final version of BearExxa V2.
 
 The BOM includes the list of printed parts and all hardware you need to build the BearExxa V2.
 
-:arrow_right: [Read the BOM here](doc/bom.md).
+:arrow_right: [Read the BOM here](doc/bom.md)
 
 
 ## Printed Parts
 
 :bulb: All links here correspond to the latest release.
 
-:warning: Warning: It is important to follow the recommended print settings and to **calibrate your extrusion multiplier** before printing the parts (for each and every spool that you use). [Check our calibration guide here](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8).
+:warning: It's important to follow the recommended print settings and to **calibrate your extrusion multiplier** before printing the parts (for each and every spool that you use). [Check our calibration guide here](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8).
 
 *to do*
 
 
 ## Print Settings
 
-:warning: Warning: It is important to follow the recommended print settings and to **calibrate your extrusion multiplier** before printing the parts. [Check our calibration guide here](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8).
+:warning: It's important to follow the recommended print settings and to **calibrate your extrusion multiplier** before printing the parts (for each and every spool that you use). [Check our calibration guide here](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8).
 
-:arrow_right: [Read the print settings here](doc/print_settings.md).
+:arrow_right: [Read the print settings here](doc/print_settings.md)
 
 
 ## Assembly Guide
