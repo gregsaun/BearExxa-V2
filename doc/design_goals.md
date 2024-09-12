@@ -55,7 +55,7 @@ The usability is another strong goal of this extruder. Thanks to the E3D Revo ec
 ### FAQ
 
 #### Why don't you use heat inserts?
-We found that with proper tolerances we could have more resistance with nuts without having them moving from their place. The nuts also takes less place. We can also make lock nuts by making the screw hole a little bit smaller. It's easier to remove them from an older part to transfer them to a new one. Finally, no special tool is required.
+Hex or square nuts have a stronger pulling resistance than heat insert. We use carefully selected clearances to make sure the hex nuts will not move from their pocket. The nuts also take less place than heat insert. We can also simulate a lock nut by making the screw hole in the plastic a little bit smaller. It's easier to remove them from an older part to transfer them to a new one. Finally, no special tool is required.
 
 #### Why the nozzle fan blower is in vertical and not angled like Prusa does?
 It's to increase the lifespan of its bearings, to not get warmer air when we are close to the bed and to not grab strings with the fan blades. The nozzle fan duct is optimized for the 90° angle and perform better than the Original MK3(s) according to our tests.
