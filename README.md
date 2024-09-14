@@ -127,8 +127,9 @@ Do not hesitate to ask if you have a question.
 ## Support My Work
 
 The bear project is made possible thanks to its supporters. You can participate via
-*  [patreon.com/gregsaun](https://www.patreon.com/gregsaun)
-* [paypal.me/gregsaun](https://www.paypal.me/gregsaun)
+* Patreon: [patreon.com/gregsaun](https://www.patreon.com/gregsaun)
+* PayPal: [paypal.me/gregsaun](https://www.paypal.me/gregsaun)
+* GitHub Sponsor: [github.com/sponsors/gregsaun](https://github.com/sponsors/gregsaun)
 
 Massive thank you in advance :heart:
 
