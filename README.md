@@ -57,13 +57,15 @@ The stock Prusa firmware is supported with the following conditions:
 - The thermal algorithm for the hotend introduced in the very latest Prusa firmwares can sometimes cause issues with the fast Revo heating. There are commands to use the previous standard method (we provide the documentation to do it)
 - For the **beta** release only: you will need to disable fan checks for prints and temporarily plug the stock hotend fan during self test procedure. The final version will be sold as a kit with a compatible fan and this will not be needed anymore
 
-This is the firmware we recommend for the best safeties and to keep all the functionalities provided by the Prusa firmware. We can provide full support to our customers with this firmware.
+> [!IMPORTANT]
+> This is the firmware we recommend for the best safeties and to keep all the functionalities provided by the Prusa firmware. We can provide full support to our customers with this firmware.
 
 The final release of BearExxa V2 will not disable or affect any safeties from the original Prusa firmware (and same applies for the Bear calibration firmware). The E3D Revo hotend is actually providing an extra safety in case of thermal runaway compared to the E3D V6 used in the Original Prusa.
 
 #### Other firmwares
 
-💡 We can only provide limited support to these firmwares.
+> [!IMPORTANT]
+> We can only provide limited support to these firmwares.
 
 The BearExxa V2 is also compatible with the [Prusa AIO Marlin 2.x firmware](https://github.com/thisiskeithb/PrusaAIO). This firmware can run on some 32b boards. Thanks Keith for this impressive work!
 
@@ -79,16 +81,19 @@ The BOM includes the list of printed parts and all hardware you need to build th
 
 ## Printed Parts
 
-:bulb: All links here correspond to the latest release.
+> [!TIP]
+> All links here correspond to the latest release.
 
-:warning: It's important to follow the recommended print settings and to **calibrate your extrusion multiplier** before printing the parts (for each and every spool that you use). [Check our calibration guide here](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8).
+> [!WARNING]
+> It's important to follow the recommended print settings and to **calibrate your extrusion multiplier** before printing the parts (for each and every spool that you use). [Check our calibration guide here](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8).
 
 *to do*
 
 
 ## Print Settings
 
-:warning: It's important to follow the recommended print settings and to **calibrate your extrusion multiplier** before printing the parts (for each and every spool that you use). [Check our calibration guide here](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8).
+> [!WARNING]
+> It's important to follow the recommended print settings and to **calibrate your extrusion multiplier** before printing the parts (for each and every spool that you use). [Check our calibration guide here](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8).
 
 :arrow_right: [Read the print settings here](doc/print_settings.md)
 
