@@ -42,7 +42,8 @@ As you can see we took care of every weight reduction that matters but we didn't
 
 ### Custom extruder motor
 
-⚠️ Not for the Beta release, will only be for RC and final releases.
+> [!WARNING]
+> Not for the Beta release, will only be for RC and final releases.
 
 The final release will use a custom extruder motor by LDO Motors. It was a difficult choice to take as we want to be as open hardware as possible but the improvements are significant. This custom motor uses a carefully selected gear ratio for smoother print quality and  minimising teeth wear. It also has an extremely concentric motor gear reducing variations due to the gearing and its construction even helps to reduce the total weight. Finally the motor specs are also optimized for original Prusa printers to provide a safe amount of torque on all occasions as well as keeping the motor cold. We chose a motor that has just enough torque to grind the filament in case of a blockage. This is to avoid problems where the spool or the filament path has lots of friction (didn't we all have a failed print due to this?), to fight slightly wrong settings that could force on the hotend's flow or, to resolve a small heat creep or, why not to later automate things like cold pulls. We believe that a finished print is always better than a failed one that will go into the trash bin (even if the quality is a bit below what you wanted to achieve). We took care of making the gears very easy to disassemble for fast cleaning in case of blockage and without the need to realign something. A guide will also be provided for this.
 
@@ -61,7 +62,10 @@ Hex or square nuts have a stronger pulling resistance than heat insert. We use c
 It's to increase the lifespan of its bearings, to not get warmer air when we are close to the bed and to not grab strings with the fan blades. The nozzle fan duct is optimized for the 90° angle and perform better than the Original MK3(s) according to our tests.
 
 #### Why do you recommend PETG?
-PETG has an excellent layer bonding, is easy to print, has higher precision due to low shrinkage, is semi fire retardant and produces less nasty fumes. Its temperature resistance is more toward printing PLA or PETG (even in enclosure) which are the most used filaments in the community. If you are an advanced user that want to print higher temperature material we recommend to use ABS, ASA or PC (and compensate for the shrinkage). We highly recommend to avoid high flow filaments (worse material properties as non high flow) as well as glass fibers or carbon fiber filaments (potentially carcinogenic, read more [here](https://hackaday.com/2024/08/07/on-carbon-fiber-types-and-their-carcinogenic-risks/)).
+PETG has an excellent layer bonding, is easy to print, has higher precision due to low shrinkage, is semi fire retardant and produces less nasty fumes. Its temperature resistance is more toward printing PLA or PETG (even in enclosure) which are the most used filaments in the community. If you are an advanced user that want to print higher temperature material we recommend to use ABS, ASA or PC (and compensate for the shrinkage).
+
+> [!CAUTION]
+> We highly recommend to avoid high flow filaments (worse material properties as non high flow) as well as glass fibers or carbon fiber filaments (potentially carcinogenic, read more [here](https://hackaday.com/2024/08/07/on-carbon-fiber-types-and-their-carcinogenic-risks/)).
 
 #### Why don't you use a smaller extruder motor?
 We have explained the reason in details in the sections "Print quality", "Reliability" and "Weight, rigidity and speed". In a nutshell, the extra weight is not an issue and we can have a colder motor with higher torque and increase the gears' lifespan.
