@@ -4,7 +4,8 @@
 
 This guide is only for the beta version. It's provided at your own risk.
 
-💡 Images are clickable for larger view.
+> [!TIP]
+> Images are clickable for larger view.
 
 ### Part 1
 Start by doing the preflight check and disassembly :
