@@ -1,10 +1,12 @@
 # BearExxa V2
 
 ## Print Settings
-
+
+
 ### Slicer settings
 
-:warning: Warning: The parts have been designed and tested with the parameters below and it is important to follow them to avoid issues like part cracking, bad bridging, not enough stiffness or wrong tolerances. Be sure to have a well calibrated machine and extruder. Check our guide here for [calibrating extrusion multiplier](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8?lang=en)
+> [!WARNING]
+> The parts have been designed and tested with the parameters below and it is important to follow them to avoid issues like part cracking, bad bridging, not enough stiffness or wrong tolerances. Be sure to have a well calibrated machine and extruder. Check our guide here for [calibrating extrusion multiplier](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8?lang=en)
 
 You can use the default PrusaSlicer print profile *0.20mm QUALITY @MK3* with 4 perimeters and 5 tops/bottoms layers and 20% infill. Otherwise, here are the parameters we recommend:
 
@@ -20,7 +22,8 @@ You can use the default PrusaSlicer print profile *0.20mm QUALITY @MK3* with 4 p
   * Single perimeter on top layer : No
   * Support : No
   * Brim : No
-  * Detect thin walls : No
+  * Detect thin walls : No
+
 
 
 ### Filament type
@@ -54,6 +57,10 @@ The parts are designed for PETG and this is what we recommend. Please consider r
 
 Note 1: Avoid eSUN PETG as some user reported that it might not block IR signal correctly. No other PETG have been reported to have this issue yet.
 
-Note 2: If you are only printing PLA and o ly occasionally PETG with your 3D printer then the e_nozzle_fan_duct can be made out of PETG. If you are printing warmer material we recommend to use a heat resistant filament like ABS, ASA, PC, Extrudr GreenTec or Fillamentum NonOilen®. Don't forget to compensate for shrinkage accordingly to the filament type you are using.
+Note 2: If you are only printing PLA and o ly occasionally PETG with your 3D printer then the e_nozzle_fan_duct can be made out of PETG. If you are printing warmer material we recommend to use a heat resistant filament like ABS, ASA, PC, Extrudr GreenTec or Fillamentum NonOilen®. **Don't forget to compensate for shrinkage** accordingly to the filament type you are using.
 
-:warning: Warning: We highly recommend to not print with carbon fibers filled filament (whatever if it's PAN-based or pitch-based) as it could be carcinogenic. For more information, please read [this article by Maya Posch from Hackaday](https://hackaday.com/2024/08/07/on-carbon-fiber-types-and-their-carcinogenic-risks/). It will not improve the print quality and could make the parts more brittle.
+> [!CAUTION]
+> When using ABS, ASA, Nylon or PC filaments you must have a certified filtered enclosure. We recommend to look at brands like [Bofa](https://bofainternational.com) (available at PrintedSolid) or [Alveo3D](https://www.alveo3d.com).
+
+> [!CAUTION]
+> We highly recommend to not print with glass fiber or carbon fibers filled filament (whatever if it's PAN-based or pitch-based) as it could be carcinogenic. For more information, please read [this article by Maya Posch from Hackaday](https://hackaday.com/2024/08/07/on-carbon-fiber-types-and-their-carcinogenic-risks/). It will not improve the print quality and could actually make the parts more brittle.
