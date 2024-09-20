@@ -143,9 +143,9 @@ Massive thank you in advance :heart:
 
 - The close help of Florian Däubler, [Paul_GD](https://github.com/PaulGD03), [Schaun Doe](https://www.printables.com/@ShaunDoe), Sleene and  [vertigo235](https://www.printables.com/@vertigo235_33)
 - All [my Patreons](https://www.patreon.com/gregsaun), it would have been impossible without their help
-- [LDO Motors](https://ldomotors.com) for their continuous and precious support and sponsoring. Thanks to LDO, we plan to make a full kit with custom stepper
+- [LDO Motors](https://ldomotors.com) for their continuous and precious support and sponsoring. LDO will manufacture the official kit for the final release with a custom stepper
 - [E3D Online](https://e3d-online.com) for providing free hotends for development
-- [Bondtech](https://www.bondtech.se) for providing free IDGA gears for developments
+- [Bondtech](https://www.bondtech.se) for providing free IDGA gears for development
 - The [fan duct knob](https://www.printables.com/model/113157-bear-extruder-v1-fan-duct-knob) by Amelia Marie Collins
 - [René Jura](https://rene-jurack.de) for helping me on CFD simulation for the nozzle fan duct
 - The 602 Wasteland Discord community for their precious knowledge, advice and great talks
