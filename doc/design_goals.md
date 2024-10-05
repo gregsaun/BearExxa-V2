@@ -16,6 +16,8 @@
 
 The main goals of the BearExxa V2 are to use a better hotend and geared extruder to improve the print quality, reliability, usability, precision, speed and to solve inconsistent extrusion issue (602 issue).
 
+![BearExxa V2 assembly](../extra/images/assembly_01.jpg)
+
 
 ### Print quality
 
@@ -27,11 +29,19 @@ The first crucial aspect to get quality prints is to handle the filament precise
 
 To achieve this we use a perfectly aligned, short and smooth filament path to reduce any potential friction. The path is shorter than on the original MK3S.
 
+![BearExxa V2 filament path length comparison](../extra/images/filament_path_comparison.jpg)
+
 We use a NEMA 17 pancake motor to make sure the hobb gears and cavity stay cold even on long PLA prints in enclosure. 
 
 We are also using the small set of the dual Bondtech hobb gears as its diameter allows to catch the filament going out of the hobb gears closer than with the larger gears. It reduces chances for the filament to go out of the path like it could happen with flexible filaments.
 
-Then comes the hotend, we chose the heatsink and fan to have the sharpest transition possible in the heatbreak. Furthermore, we made sure to have a free space right below the heatsink to cool this side with the movements of the tool head. It's important because the bottom side of the heatsink is where it matter the most to create a sharp heatbreak transition.
+Then comes the hotend, we chose the heatsink and fan to have the sharpest transition possible in the heatbreak.
+
+![BearExxa V2 Hotend and its fan](../extra/images/e3d_revo_micro_02.jpg)
+
+Furthermore, we made sure to have a free space right below the heatsink to cool this side with the movements of the tool head. It's important because the bottom side of the heatsink is where it matter the most to create a sharp heatbreak transition.
+
+![BearExxa V2 hotend cooling](../extra/images/e3d_revo_fan_02.jpg)
 
 All these features **improve random extrusion artifacts and increase the accuracy** of your prints.
 
@@ -40,9 +50,9 @@ All these features **improve random extrusion artifacts and increase the accurac
 
 The extruder uses a gear ratio of 3:1 (with beta release) or almost 4:1 (with the future final release). 
 
-We took care of using appropriate teeth numbers to have a smooth rotation and to reduce the wear on the teeth. We believe that the print quality should be the same even after many hours of use!
+We took care of using appropriate teeth numbers to have a smooth rotation and to reduce the wear on the teeth (e.g. coprime number of teeth, no profile shifting, hardened teeth, etc.). We believe that the print quality should be the same even after many hours of use!
 
-We are also using enough motor torque to be sure that when the pressure increases in the hotend (wider extrusion, partial clog, too high flow rate, ...) we don't make the motor steps too visible. In the final version of the BearExxa V2 we will use a custom motor with a very concentric gear that will reduce variations in the rotation. We are also planning to use the all in one piece Bondtech shaft and hobb gear to once again reduce the variations.
+The custom motor has enough torque to be sure that when the pressure increases in the hotend due to small issue or non-optimal settings (wider extrusion, partial clog, too high flow rate, ...) we don't make the motor steps too visible. This custom motor has a very concentric gear that will reduce variations in the rotation. For the final release we are also planning to use the all in one piece Bondtech shaft and hobb gear (IDGA) to once again reduce the variations.
 
 All those features **improve the so called "moiré pattern" (also called basket wave or wood grain pattern)** or, in other words, the repetitive extrusion artifacts.
 
@@ -66,11 +76,15 @@ After multiple testing with belts and planetary gears we found that a single sta
 
 We use the Bondtech gear shaft and hobb gears, but we replaced the original bearings by larger ones to increase lifespan (and smoothness).
 
+![BearExxa V2 bearings](../extra/images/bearing_02.jpg)
+
 We use the E3D Revo Micro hotend for its professional support and compliances with worldwide regulations. We optimized the hotend airflow for the best heatbreak performance possible, low noise and to avoid grabbing tiny hairs (strings).
 
 We placed the nozzle fan blower in vertical to maximise the lifespan of its bearings, to not get warmer air when the extruder is close to the bed and, once again, to avoid getting strings in the fan blades.
 
 Unlike the Original Prusa MK3S extruder, the filament path is in one piece to avoid a potential misalignment during assembly that would affect its smoothness. It is also shorter than MK3S extruder.
+
+![BearExxa V2 unibody filament path](../extra/images/unibody_filament_path.jpg)
 
 Every printed parts and features have been tested carefully. When rigidity or brittleness could be affected we made internal reinforcements within the infill to reduce any risks.
 
@@ -84,6 +98,8 @@ Despite a larger motor than what's commonly used these days, a lot of work have 
 First it's important to remember that a bed slinger printer doesn't have to carry the weight of the gantry like on a CoreXY machine, which means the mass in motion is lighter than we could first think. However, obviously, the bed is heavy and will be the bottleneck.
 
 On our design, we reduced the weight by using a light and small hotend (including the fan), using a single stage spur gears instead of heavier planetary gears, lowering the number of screws, using small hobb gears, carefully selecting the hardware, not adding extra useless features and designing a compact body.
+
+![E3D Revo Micro and its fan](../extra/images/e3d_revo_micro.jpg)
 
 As you can see we took care of every weight reduction that matters but we didn't stop there. The X axis is stiffer thanks to several design details: we use clamps on the Z axis bearings, X motor is closer to the Z axis, the belt tensioner is stiff and we optimized how deep the smooth rods are inserted in the X ends.
 
@@ -106,14 +122,25 @@ Finally, the motor specs are optimized for original Prusa printers to provide a 
 
 Thanks to the E3D Revo ecosystem you can swap nozzles with two fingers in a few seconds. And to make this even easier, you can remove the hotend fan duct with a thumb screw.
 
+![BearExxaV2 Thumb screw nozzle fan duct shroud](../extra/images/e3d_revo_fan_01.jpg)
+
 The hobb gear tension has a visual adjustment for the nominal tension.
 
 The belt tensioner is easy to use and has a long adjustment range.
 
+![BearExxa V2 belt tensioner](../extra/images/belt_tensioner.jpg)
+
 You only need to remove 4 screws to access all gears for easy cleaning and maintenance. The extruder motor also has a very accessible connector.
 
-With 3 other screws you can remove the X carriage back and access all the wiring freely.
+![BearExxa V2 removing motor anf gears](../extra/images/bearexxa_v2_stepper_remove_800p.gif)
 
+The E3D Revo Micro heatsink has a self tightening groove mount that block any rotation. Like this you will never have issue when swapping nozzles.
+
+![E3D Revo self tightening groove mount](../extra/images/e3d_revo_micro_mount_02.jpg)
+
+The back of the X carriage id.ade into two parts toaccess all the wiring and the belt freely.
+
+![BearExxa V2 X carriage back](../extra/images/x_carriage_back.gif)
 
 ### FAQ
 
@@ -143,6 +170,6 @@ The Revo Micro heatsink has slightly more surface in contact with the airflow, e
 Using a single hotend allow us to optimize a lot of design's aspects like size, weight, filament path, etc. Supporting a single hotend means we can also have a more reliable testing and provide quality support. Finally, we choose E3D-Online Ltd. because their products have all the worldwide safety compliances, they provide a full ecosystem, they made deep research and engineering on how a hotend works and they have a professional support for their customers.
 
 #### Why don't you use the Bondtech IDGA gear?
-We are well aware of the IDGA benefits. We have actually talked about it with Bondtech several years ago when the Bondtech Prusa extruder was introduced and more recently for the development of the IDGA. We also thought to design our own gears as we see improvements but making a custom motor was already a big step.
+We are well aware of the IDGA benefits. We have actually talked about it with Bondtech engineers several years ago when the Bondtech Prusa extruder was introduced and more recently for the development of the IDGA. We also thought to design our own gears as we see improvements but making a custom motor was already a big step.
 
 When we released the beta BearExxa V2, the IDGA gear was unfortunately not available and so it's not supported yet. We will make the final version compatible with BMG IDGA or OEM IDGA (we don't know which one is best yet). However, we can guarantee that even without the IDGA the print quality is a big step over BearExxa V1 and 602 pattern (moiré, wood grain. inconsistency) has been drastically reduced.
