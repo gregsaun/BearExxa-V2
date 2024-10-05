@@ -37,7 +37,7 @@ We are also using the small set of the dual Bondtech hobb gears as its diameter 
 
 Then comes the hotend, we chose the heatsink and fan to have the sharpest transition possible in the heatbreak.
 
-![BearExxa V2 Hotend and its fan](../extra/images/e3d_revo_micro_02.jpg)
+![BearExxa V2 Hotend and its fan](../extra/images/e3d_revo_micro_mount_02.jpg)
 
 Furthermore, we made sure to have a free space right below the heatsink to cool this side with the movements of the tool head. It's important because the bottom side of the heatsink is where it matter the most to create a sharp heatbreak transition.
 
