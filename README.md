@@ -147,7 +147,7 @@ Massive thank you in advance :heart:
 - [E3D Online](https://e3d-online.com) for providing free hotends for development
 - [Bondtech](https://www.bondtech.se) for providing free IDGA gears for development
 - The [fan duct knob](https://www.printables.com/model/113157-bear-extruder-v1-fan-duct-knob) by Amelia Marie Collins
-- [René Jura](https://rene-jurack.de) for helping me on CFD simulation for the nozzle fan duct
+- [René Jurack](https://rene-jurack.de) for helping me on CFD simulation for the nozzle fan duct
 - The 602 Wasteland Discord community for their precious knowledge, advice and great talks
 - Keith Bennett for making the [Prusa AIO firmware](https://github.com/thisiskeithb/PrusaAIO) compatible
 - [PoiTEE](https://x.com/PoiTEE) for the great talks and testing
