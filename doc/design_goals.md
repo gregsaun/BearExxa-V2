@@ -37,7 +37,7 @@ We are also using the small set of the dual Bondtech hobb gears as its diameter 
 
 Then comes the hotend, we chose the heatsink and fan to have the sharpest transition possible in the heatbreak.
 
-![BearExxa V2 Hotend and its fan](../extra/images/e3d_revo_micro_mount_02.jpg)
+![BearExxa V2 Hotend and its fan](../extra/images/e3d_revo_micro_02.jpg)
 
 Furthermore, we made sure to have a free space right below the heatsink to cool this side with the movements of the tool head. It's important because the bottom side of the heatsink is where it matter the most to create a sharp heatbreak transition.
 
@@ -50,7 +50,7 @@ All these features **improve random extrusion artifacts and increase the accurac
 
 The extruder uses a gear ratio of 3:1 (with beta release) or almost 4:1 (with the future final release). 
 
-We took care of using appropriate teeth numbers to have a smooth rotation and to reduce the wear on the teeth (e.g. coprime number of teeth, no profile shifting, hardened teeth, etc.). We believe that the print quality should be the same even after many hours of use!
+We took care of using appropriate teeth numbers to have a smooth rotation and to reduce the wear on the teeth (e.g. coprime number of teeth, hardened teeth, large surface of contact). We believe that the print quality should be the same even after many hours of use!
 
 The custom motor has enough torque to be sure that when the pressure increases in the hotend due to small issue or non-optimal settings (wider extrusion, partial clog, too high flow rate, ...) we don't make the motor steps too visible. This custom motor has a very concentric gear that will reduce variations in the rotation. For the final release we are also planning to use the all in one piece Bondtech shaft and hobb gear (IDGA) to once again reduce the variations.
 
