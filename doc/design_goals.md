@@ -10,6 +10,7 @@
 1. [Weight, rigidity and speed](#weight-rigidity-and-speed)
 1. [Custom extruder motor](#custom-extruder-motor)
 1. [Usability and maintenance](#usability-and-maintenance)
+1. [Safety](#safety)
 1. [FAQ](#faq)
 
 ### Introduction
@@ -52,7 +53,7 @@ The extruder uses a gear ratio of 3:1 (with beta release) or almost 4:1 (with th
 
 We took care of using appropriate teeth numbers to have a smooth rotation and to reduce the wear on the teeth (e.g. coprime number of teeth, hardened teeth, large surface of contact). We believe that the print quality should be the same even after many hours of use!
 
-The custom motor has enough torque to be sure that when the pressure increases in the hotend due to small issue or non-optimal settings (wider extrusion, partial clog, too high flow rate, ...) we don't make the motor steps too visible. This custom motor has a very concentric gear that will reduce variations in the rotation. For the final release we are also planning to use the all in one piece Bondtech shaft and hobb gear (IDGA) to once again reduce the variations.
+The custom motor has enough torque to be sure that we don't make the motor steps more visible when the pressure increases in the hotend due non-optimal settings or other small issues (wider extrusion, partial clog, too high flow rate, ...). This custom motor has a very concentric gear that will reduce variations in the rotation. For the final release we are also planning to use the all in one piece Bondtech shaft and hobb gear (IDGA) to once again reduce the variations.
 
 All those features **improve the so called "moiré pattern" (also called basket wave or wood grain pattern)** or, in other words, the repetitive extrusion artifacts.
 
@@ -115,7 +116,7 @@ This custom motor uses a carefully selected gear ratio for smoother print qualit
 
 The back of the motor is almost empty inside, it has been made thicker to accommodate a connector. Like this, we reduce the maintenance time and so be quicker to restart printing.
 
-Finally, the motor specs are optimized for original Prusa printers to provide a safe amount of torque on all occasions as well as keeping the motor cold. We chose a motor that has just enough torque to grind the filament in case of a blockage. This is to avoid problems where the spool or the filament path has lots of friction (didn't we all have a failed print due to this?), to fight slightly wrong settings that could force on the hotend's flow or, to resolve a small heat creep or, why not to later automate things like cold pulls. We believe that a finished print is always better than a failed one that will be sent to trash (even if the quality is a bit below what you wanted to achieve).
+Finally, the motor specs are optimized for original Prusa printers to provide a safe amount of torque on all occasions as well as keeping the motor cold for long PLA prints in enclosure. We chose a motor that has just enough torque to grind the filament in case of a blockage. This is to avoid problems where the spool or the filament path has lots of friction (didn't we all have a failed print due to this?), to fight slightly non-optimal settings that could force on the hotend's flow, to resolve a small heat creep or, why not, to later automate things like cold pulls. We believe that a finished print is always better than a failed one that will be sent to trash (even if the quality is a bit below what you wanted to achieve).
 
 
 ### Usability and maintenance
@@ -141,6 +142,20 @@ The E3D Revo Micro heatsink has a self tightening groove mount that block any ro
 The back of the X carriage id.ade into two parts toaccess all the wiring and the belt freely.
 
 ![BearExxa V2 X carriage back](../extra/images/x_carriage_back.gif)
+
+
+### Safety
+
+We are really careful when it comes to safety, especially when it cones to DIY. A 3D printer is a machine melting flammable plastic for hours and hours, it must be safe.
+
+We choose the E3D Revo hotend for its worldwide compliances (CE, UKCA RoHS, etc.). The Revo PTC heater offers an extra safety in case of thermal runaway. Our design make sure that the wire harness of the HeaterCore is kept straight and wires don't have strong bending. The original Revo cables can be used, no crimping or cutting is required. The hotend fan that will come with the final kit will have the tachometer wire to detect a failing fan.
+
+We recommended a safe to use filament to print the extruder parts and provide all the print settings you need. The extruder has been tested to support the temperature for long prints.
+
+We provide detailed documentation, assembly guides and many other helps. Like this you reduce as much as possible the issues during assembly, printing, maintenance and have many resources in case of problems. If it's not enough we are here to provide support, there are no bad questions.
+
+We only recommend genuine Prusa, E3D and Bondtech hardware for the best safety and support possible. We will provide an official kit that has been carefully designed and controlled.
+
 
 ### FAQ
 
