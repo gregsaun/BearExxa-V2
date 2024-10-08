@@ -36,7 +36,7 @@ We use a NEMA 17 pancake motor to make sure the hobb gears and cavity stay cold 
 
 We are also using the small set of the dual Bondtech hobb gears as its diameter allows to catch the filament going out of the hobb gears closer than with the larger gears. It reduces chances for the filament to go out of the path like it could happen with flexible filaments.
 
-Then comes the hotend, we chose the heatsink and fan to have the sharpest transition possible in the heatbreak.
+Then comes the hotend, we chose the E3D Revo because we have observed that it's particularly good at reducing random artifacts on perimeters compared to some competitor we have evaluated or tested. But this is not without a good control of the filament from top down to the nozzle, so we took care of the airflow and thermal management for a very sharp transition possible in the heatbreak. This is made possible with the Revo Micro heatsink and a properly sized fan.
 
 ![BearExxa V2 Hotend and its fan](../extra/images/e3d_revo_micro_02.jpg)
 
@@ -148,9 +148,9 @@ The back of the X carriage id.ade into two parts toaccess all the wiring and the
 
 We are really careful with the safety of our project, especially as it's DIY and open source. A 3D printer is a machine melting flammable plastic for hours and hours, it must be safe!
 
-We choose the E3D Revo hotend for its worldwide compliances (CE, UKCA RoHS, etc.). The Revo PTC heater offers an extra safety in case of thermal runaway. Our design makes sure that the wire harness of the HeaterCore is kept straight and wires don't have strong bending. The original Revo cables can be used, no crimping or cutting is required. The hotend fan that will come with the final kit will have the tachometer wire to detect a failing fan.
+We chose the E3D Revo hotend for its worldwide compliances (CE, UKCA RoHS, etc.). The Revo PTC heater offers an extra safety in case of thermal runaway. Our design makes sure that the wire harness of the HeaterCore is kept straight and wires don't have sharp corners. The original Revo cables can be used, no crimping or cutting is required. The hotend fan that will come with the final kit will have the tachometer wire to detect a failing fan.
 
-We recommended a safe to use filament to print the extruder parts and provide all the print settings you need. The extruder has been tested to support the temperature for long prints.
+We recommend PETG for the extruder parts because its a safe filament to use. It doesn't burn easily and do not release too much nasty fumes. The extruder has obviously been tested to support the temperature for long prints.
 
 We provide detailed documentation, assembly guides and many other helps. Like this you reduce as much as possible the issues during assembly, printing, maintenance and have many resources in case of problems. If it's not enough we are here to provide support, there are no bad questions.
 
@@ -176,7 +176,7 @@ We have explained the reason in details in the sections "Print quality", "Reliab
 
 The extra weight is compensated by other lighter parts, low hardware count and an overall compact design. Also, it would be very hard to see a print quality improvement with a lighter motor because, on a bed slinger, we are only moving the extruder (unlike CoreXY which also moves the gantry) and the bed is the heaviest part. 
 
-However, a larger motor can run colder and so improve print quality and reliability of a long PLA print in an enclosure. Finally, we can also have higher torque and increase the gears' lifespan, which both increase reliability and reduce maintenance.
+Furthermore, a larger motor can run colder and so improve print quality and reliability of a long PLA print in an enclosure (door closed). We can also have higher torque and increase the gears' lifespan, which both increase reliability and reduce maintenance.
 
 #### Why do you use the Revo Micro heatsink and not the Revo Voron heatsink?
 The Revo Micro heatsink has slightly more surface in contact with the airflow, especially when used with a smaller and lighter fan. The round shape is also easier to optimize for optimal airflow. The screw mount may sound like it may rotate but we did a self tightening system that avoid this to happen.
