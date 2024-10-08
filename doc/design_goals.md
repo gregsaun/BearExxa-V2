@@ -146,15 +146,15 @@ The back of the X carriage id.ade into two parts toaccess all the wiring and the
 
 ### Safety
 
-We are really careful when it comes to safety, especially when it cones to DIY. A 3D printer is a machine melting flammable plastic for hours and hours, it must be safe.
+We are really careful with the safety of our project, especially as it's DIY and open source. A 3D printer is a machine melting flammable plastic for hours and hours, it must be safe!
 
-We choose the E3D Revo hotend for its worldwide compliances (CE, UKCA RoHS, etc.). The Revo PTC heater offers an extra safety in case of thermal runaway. Our design make sure that the wire harness of the HeaterCore is kept straight and wires don't have strong bending. The original Revo cables can be used, no crimping or cutting is required. The hotend fan that will come with the final kit will have the tachometer wire to detect a failing fan.
+We choose the E3D Revo hotend for its worldwide compliances (CE, UKCA RoHS, etc.). The Revo PTC heater offers an extra safety in case of thermal runaway. Our design makes sure that the wire harness of the HeaterCore is kept straight and wires don't have strong bending. The original Revo cables can be used, no crimping or cutting is required. The hotend fan that will come with the final kit will have the tachometer wire to detect a failing fan.
 
 We recommended a safe to use filament to print the extruder parts and provide all the print settings you need. The extruder has been tested to support the temperature for long prints.
 
 We provide detailed documentation, assembly guides and many other helps. Like this you reduce as much as possible the issues during assembly, printing, maintenance and have many resources in case of problems. If it's not enough we are here to provide support, there are no bad questions.
 
-We only recommend genuine Prusa, E3D and Bondtech hardware for the best safety and support possible. We will provide an official kit that has been carefully designed and controlled.
+We only recommend genuine Prusa, E3D and Bondtech hardware for the best safety and support possible. We will provide an official kit that has been carefully designed and controlled (manufactured by LDO Motors).
 
 
 ### FAQ
