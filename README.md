@@ -4,6 +4,7 @@
   1. [Introduction](#introduction)
   1. [Project Status](#project-status)
   1. [Disclaimer](#disclaimer)
+  1. [How To](#how-to)
   1. [Design Goals](#design-goals)
   1. [Compatibility](#compatibility)
   1. [Bill Of Materials](#bill-of-materials)
@@ -35,6 +36,20 @@ This project is on hold for now. It's provided "as is" for any adventurous users
 ## Disclaimer
 
 This project is only to provide an alternative extruder and X axis to your Prusa printers. We are not related to Prusa Research. We cannot be taken responsible for any damages you may do by using this project nor any decision Prusa would take on you (for example: loosing warranty). This project is not for beginner and is at your own risk.
+
+
+## How To
+
+How to print, build and use thé BearExxaV2:
+
+1. Read the [Disclaimer](#disclaimer) and [Compatibility](#compatibility) to make sure you agree to the limitations
+2. Buy the official BearExxa v2 kit or gather the parts using the [BOM](#bill-of-material)
+3. Buy the filament according to the [Print Settings](#print-settings)
+4. Download the [Printed Parts](#printed-parts)
+5. Calibrate your filaments with our [calibration guide](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8)
+6. Print the parts according to the [Print Settings](print-settings)
+7. Follow the [Assembly Guide](#assembly-guide)
+8. Enjoy your new extruder :)
 
 
 ## Design Goals
