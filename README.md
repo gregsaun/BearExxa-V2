@@ -40,13 +40,13 @@ This project is only to provide an alternative extruder and X axis to your Prusa
 
 ## How To
 
-How to print, build and use thé BearExxaV2:
+How to print, build and use the BearExxaV2:
 
 1. Read the [Disclaimer](#disclaimer) and [Compatibility](#compatibility) to make sure you agree to the limitations
 2. Buy the official BearExxa v2 kit or gather the parts using the [BOM](#bill-of-materials)
 3. Buy the filament according to the [Print Settings](#print-settings)
 4. Download the [Printed Parts](#printed-parts)
-5. Calibrate your filaments with our [calibration guide](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8)
+5. Calibrate your filaments with our [Calibration Guide](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8)
 6. Print the parts according to the [Print Settings](#print-settings)
 7. Follow the [Assembly Guide](#assembly-guide)
 8. Enjoy your new extruder :)
