@@ -131,11 +131,11 @@ The belt tensioner is easy to use and has a long adjustment range.
 
 ![BearExxa V2 belt tensioner](../extra/images/belt_tensioner.jpg)
 
-You only need to remove 4 screws to access all gears for easy cleaning and maintenance. The extruder motor also has a very accessible connector.
+You only need to remove 4 screws and unplug the motor cable to access the gearing, the hobb gears, the filament sensor and the top of the PTFE tube. Cleaning and maintenance are a breeze and quick.
 
 ![BearExxa V2 removing motor anf gears](../extra/images/bearexxa_v2_stepper_remove_800p.gif)
 
-The E3D Revo Micro heatsink has a self tightening groove mount that block any rotation. Like this you will never have issues when swapping nozzles.
+We invented a self tightening groove mount that blocks the rotation of the Revo Micro heatsink thread. Like this there are zero chances to unscrew the heatsink when swapping nozzles.
 
 ![E3D Revo self tightening groove mount](../extra/images/e3d_revo_micro_mount_02.jpg)
 
