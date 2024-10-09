@@ -32,15 +32,15 @@ To achieve this we use a perfectly aligned, short and smooth filament path to re
 
 ![BearExxa V2 filament path length comparison](../extra/images/filament_path_comparison.jpg)
 
-We use a NEMA 17 pancake motor to make sure the hobb gears and cavity stay cold even on long PLA prints in enclosure. 
+We use a NEMA 17 pancake motor to keep the hobb gears and cavity as cold as possible, even on long PLA prints in enclosure with doors closed. 
 
-We are also using the small set of the dual Bondtech hobb gears as its diameter allows to catch the filament going out of the hobb gears closer than with the larger gears. It reduces chances for the filament to go out of the path like it could happen with flexible filaments.
+We are also using the small set of the dual Bondtech hobb gears as its diameter allows to catch the filament exiting the hobb gears closer than with a larger diameter. It reduces chances for the filament to go out of the path like it could happen with flexible filaments.
 
-Then comes the hotend, we chose the E3D Revo because we have observed that it's particularly good at reducing random artifacts on perimeters compared to some competitor we have evaluated or tested. But this is not without a good control of the filament from top down to the nozzle, so we took care of the airflow and thermal management for a very sharp transition possible in the heatbreak. This is made possible with the Revo Micro heatsink and a properly sized fan.
+Then comes the hotend, we chose the E3D Revo because we have observed that it's particularly good at reducing random artifacts on perimeters compared to some competitors we have evaluated or tested. But it needs a good control of the filament on both cold and hot sides, so we took care of the airflow and thermal management to get a very sharp thermal transition in the heatbreak. This is achieved with the Revo Micro heatsink, a properly sized fan and a careful design.
 
 ![BearExxa V2 Hotend and its fan](../extra/images/e3d_revo_micro_02.jpg)
 
-Furthermore, we made sure to have a free space right below the heatsink to cool this side with the movements of the tool head. It's important because the bottom side of the heatsink is where it matter the most to create a sharp heatbreak transition.
+Furthermore, we made sure to have a free space right below the heatsink to cool this side as well with the movements of the tool head. It's important because the bottom side of the heatsink is where it matter the most for the heatbreak.
 
 ![BearExxa V2 hotend cooling](../extra/images/e3d_revo_fan_02.jpg)
 
@@ -73,7 +73,7 @@ We may later provide a mod to use a single gear for making your own conclusion. 
 
 Reliability is a strong goal of this extruder. We use a NEMA 17 pancake motor to keep the hobb gears and the extruder cavity as cold as possible during extensive PLA prints in enclosure (door closed).
 
-After multiple testing with belts and planetary gears we found that a single stage of spur gears is the best compromise. It's light, easy to assemble and has a very low part count, which means less parts can fail.
+After multiple testing with belts and planetary gearboxes we found that a single stage of spur gears is the best compromise. It's light, easy to assemble and has a very low part count, which means less parts can fail.
 
 We use the Bondtech gear shaft and hobb gears, but we replaced the original bearings by larger ones to increase lifespan (and smoothness).
 
@@ -135,11 +135,11 @@ You only need to remove 4 screws to access all gears for easy cleaning and maint
 
 ![BearExxa V2 removing motor anf gears](../extra/images/bearexxa_v2_stepper_remove_800p.gif)
 
-The E3D Revo Micro heatsink has a self tightening groove mount that block any rotation. Like this you will never have issue when swapping nozzles.
+The E3D Revo Micro heatsink has a self tightening groove mount that block any rotation. Like this you will never have issues when swapping nozzles.
 
 ![E3D Revo self tightening groove mount](../extra/images/e3d_revo_micro_mount_02.jpg)
 
-The back of the X carriage id.ade into two parts toaccess all the wiring and the belt freely.
+The back of the X carriage is made into two parts to access all the wiring and the belt freely.
 
 ![BearExxa V2 X carriage back](../extra/images/x_carriage_back.gif)
 
