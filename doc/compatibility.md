@@ -31,6 +31,11 @@ The BearExxa V2 is also compatible with the [Prusa AIO Marlin 2.x firmware](http
 We will provide main Klipper parameters for the final version of BearExxa V2.
 
 
+### MMU and ERCF
+
+The extruder is designed from scratch to be capable of multicolour printing with systems like Prusa MMU or ERCF.  You can find more information in the [optional parts](/README.md#optional-parts).
+
+
 ### BearExxa V1, BearMera and Bondtech Bear X axis
 
 The X axis of BearExxa V1, BearMera (E3D Hemera) and Bear X axis and carriage for Prusa original Bondtech are all 100% compatible.
