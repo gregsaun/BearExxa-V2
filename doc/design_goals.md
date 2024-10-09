@@ -148,13 +148,13 @@ The back of the X carriage id.ade into two parts toaccess all the wiring and the
 
 We are really careful with the safety of our project, especially as it's DIY and open source. A 3D printer is a machine melting flammable plastic for hours and hours, it must be safe!
 
-We chose the E3D Revo hotend for its worldwide compliances (CE, UKCA RoHS, etc.). The Revo PTC heater offers an extra safety in case of thermal runaway. Our design makes sure that the wire harness of the HeaterCore is kept straight and wires don't have sharp corners. The original Revo cables can be used, no crimping or cutting is required. The hotend fan that will come with the final kit will have the tachometer wire to detect a failing fan.
+We chose the E3D Revo hotend for its worldwide compliances (CE, UKCA RoHS, etc.). It's also particularly interesting that the  Revo is using a PTC heater which offers an extra safety in case of thermal runaway. Our design makes sure that the wire harness of the HeaterCore is kept straight and that no wires have sharp angle. The original Revo cables can be used, no crimping or cutting is required. The hotend fan that will come with the final kit will have the tachometer wire to detect a fan failure.
 
 We recommend PETG for the extruder parts because its a safe filament to use. It doesn't burn easily and do not release too much nasty fumes. The extruder has obviously been tested to support the temperature for long prints.
 
 We provide detailed documentation, assembly guides and many other helps. Like this you reduce as much as possible the issues during assembly, printing, maintenance and have many resources in case of problems. If it's not enough we are here to provide support, there are no bad questions.
 
-We only recommend genuine Prusa, E3D and Bondtech hardware for the best safety and support possible. We will provide an official kit that has been carefully designed and controlled (manufactured by LDO Motors).
+We only recommend genuine Bondtech, E3D, LDO Motors, and Prusa hardware for the best safety and support possible. We will provide an official kit that has been carefully designed and controlled (manufactured by LDO Motors).
 
 
 ### FAQ
@@ -188,3 +188,6 @@ Using a single hotend allow us to optimize a lot of design's aspects like size, 
 We are well aware of the IDGA benefits. We have actually talked about it with Bondtech engineers several years ago when the Bondtech Prusa extruder was introduced and more recently for the development of the IDGA. We also thought to design our own gears as we see improvements but making a custom motor was already a big step.
 
 When we released the beta BearExxa V2, the IDGA gear was unfortunately not available and so it's not supported yet. We will make the final version compatible with BMG IDGA or OEM IDGA (we don't know which one is best yet). However, we can guarantee that even without the IDGA the print quality is a big step over BearExxa V1 and 602 pattern (moiré, wood grain. inconsistency) has been drastically reduced.
+
+#### Would it be possible to use a stronger fan like the one on the MK4S?
+Yes we want to work on this but at the moment we focus on stock Prusa MK3S+ hardware.

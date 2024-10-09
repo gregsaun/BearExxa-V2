@@ -21,7 +21,7 @@
 
 ## Introduction 
 
-This is the repository for the Bear EXtruder and X Axis Version 2 (BearExxa V2). It consists of an extruder and X axis designed to improve Prusa MK2.5(S, S+) and MK3(S, S+) print quality, speed, reliability and usability. It's the successor of the [Bear Extruder and X axis V1](https://github.com/gregsaun/bear_extruder_and_x_axis). Like the previous extruder, it's fully open source.
+This is the repository for the Bear EXtruder and X Axis version 2 (BearExxa V2). It consists of an extruder and X axis designed to improve Prusa MK2.5(S, S+) and MK3(S, S+) print quality, speed, reliability and usability. It's the successor of the [Bear Extruder and X axis V1](https://github.com/gregsaun/bear_extruder_and_x_axis). Like the previous extruder, it's fully open source.
 
 ![BearExxa V2 CAD assemnly](extra/images/assembly_01.jpg)
 
@@ -30,7 +30,7 @@ This is the repository for the Bear EXtruder and X Axis Version 2 (BearExxa V2).
 
 Status: Currently building the repository for the Beta release
 
-This project is on hold for now. It's provided "as is" for any adventurous users interested in having a good extruder for their Prusa or Bears. The Beta version of the BearExxa V2 provided here at the moment is fully functional and safe to use. The end goal is to provide a kit with all the parts and an improved stepper for better print quality and reliability (see Design Goals)
+This project is on hold for now. It's provided "as is" for any adventurous users interested in having a good extruder for their Prusa or Bear. The beta version of the BearExxa V2 provided here is fully functional and safe to use. The end goal is to provide a kit with all the parts and an improved stepper and hardware for better print quality and reliability (see [Design Goals](#desigb-goals)).
 
 
 ## Disclaimer
@@ -40,14 +40,14 @@ This project is only to provide an alternative extruder and X axis to your Prusa
 
 ## How To
 
-How to print, build and use the BearExxaV2:
+How to print, build and use the BearExxa V2:
 
 1. Read the [Disclaimer](#disclaimer) and [Compatibility](#compatibility) to make sure you agree to the limitations
 2. Buy the official BearExxa v2 kit or gather the parts using the [BOM](#bill-of-materials)
 3. Buy the filament according to the [Print Settings](#print-settings)
 4. Download the [Printed Parts](#printed-parts)
 5. Calibrate your filaments with our [Calibration Guide](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8)
-6. Print the parts according to the [Print Settings](#print-settings)
+6. Slice and print the parts according to the [Print Settings](#print-settings)
 7. Follow the [Assembly Guide](#assembly-guide)
 8. Enjoy your new extruder :)
 
@@ -102,7 +102,7 @@ As this is only a beta version provided "as is" we only have a quick assembly gu
 
 ## Configuration
 
-Before using your BearExxa V2 you need to configure the printer.
+Here are the detailed configurations for your firmware. Note that the official support of the Prusa firmware is covered in the assembly guide.
 
 ➡️ [Read the configuration documentation here](doc/config)
 
@@ -126,7 +126,7 @@ Do not hesitate to ask if you have a question.
 
 ## Support My Work
 
-The bear project is made possible thanks to its supporters. You can participate via
+The bear project is made possible thanks to its supporters. You can help the via
 * Patreon: [patreon.com/gregsaun](https://www.patreon.com/gregsaun)
 * PayPal: [paypal.me/gregsaun](https://www.paypal.me/gregsaun)
 * GitHub Sponsor: [github.com/sponsors/gregsaun](https://github.com/sponsors/gregsaun)
@@ -155,7 +155,7 @@ Thank you everyone ❤️
 
 ## License
 
-The Bear Extruder v2 is an open-source hardware project created from scratch by Grégoire Saunier with help and inspiration from the people and companies listed under "Credits and Thank You" as well as contributions linked to this repository.
+The Bear EXtruder and X Axis v2 (BearExxa V2) is an open-source hardware project created from scratch by Grégoire Saunier with help and inspiration from the people and companies listed under "Credits and Thank You" as well as contributions linked to this repository.
 
 All texts, images, PDF files and animations in this repository are licensed under the terms of the CC-BY-SA 4.0 license. The full license text of CC-BY-SA 4.0 is available in this repository at [`./LICENSE-CC-BY-SA-4.0`](./LICENSE-CC-BY-SA-4.0). Read more about this license [here](https://creativecommons.org/licenses/by-sa/4.0/).
 
