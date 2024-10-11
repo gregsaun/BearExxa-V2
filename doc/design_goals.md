@@ -191,3 +191,6 @@ When we released the beta BearExxa V2, the IDGA gear was unfortunately not avail
 
 #### Would it be possible to use a stronger fan like the one on the MK4S?
 Yes we want to work on this but at the moment we focus on stock Prusa MK3S+ hardware.
+
+#### Do you support MK3.5S?
+We don't know yet but it might be possible. We are looking for feedback if you try the adventure.
