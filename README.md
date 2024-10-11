@@ -42,7 +42,7 @@ This project is only to provide an alternative extruder and X axis to your Prusa
 
 How to print, build and use the BearExxa V2:
 
-1. Read the [Disclaimer](#disclaimer) and [Compatibility](#compatibility) to make sure you agree to the limitations
+1. Read the [Project Status](#project-status), [Disclaimer](#disclaimer) and [Compatibility](#compatibility) to make sure you agree to the limitations
 2. Buy the official BearExxa v2 kit or gather the parts using the [BOM](#bill-of-materials)
 3. Buy the filament according to the [Print Settings](#print-settings)
 4. Download the [Printed Parts](#printed-parts)
@@ -82,7 +82,7 @@ The BOM includes the list of printed parts and all hardware you need to build th
 > [!WARNING]
 > It's important to follow the recommended print settings and to **calibrate your extrusion multiplier** before printing the parts (for each and every spool that you use). [Check our calibration guide here](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8).
 
-*to do*
+*to do: download link*
 
 
 ## Print Settings
@@ -109,7 +109,16 @@ Here are the detailed configurations for your firmware. Note that the official s
 
 ## Optional Parts
 
-*to do*
+#### Official optional parts
+
+  - Multicolour with MMU or ERCF: [optional_parts/mmu_ercf](optional_parts/mmu_ercf)
+  - Reverse Bowden: [optional_parts/reverse_bowden](optional_parts/reverse_bowden)
+
+*to do: download link*
+
+#### Community's optional parts
+
+Find optional parts designed by the community at [guides.bear-lab.com/Wiki/community_optional_parts](https://guides.bear-lab.com/Wiki/community_optional_parts).
 
 
 ## Community
