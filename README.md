@@ -40,7 +40,7 @@ This project is only to provide an alternative extruder and X axis to your Prusa
 
 ## How To
 
-How to print, build and use the BearExxa V2:
+How to print, build and start using the BearExxa V2:
 
 1. Read the [Project Status](#project-status), [Disclaimer](#disclaimer) and [Compatibility](#compatibility) to make sure you agree to the limitations
 2. Buy the official BearExxa v2 kit or gather the parts using the [BOM](#bill-of-materials)
@@ -76,9 +76,6 @@ The BOM includes the list of printed parts and all hardware you need to build th
 
 ## Printed Parts
 
-> [!TIP]
-> All links here correspond to the latest release.
-
 > [!WARNING]
 > It's important to follow the recommended print settings and to **calibrate your extrusion multiplier** before printing the parts (for each and every spool that you use). [Check our calibration guide here](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8).
 
@@ -102,7 +99,10 @@ As this is only a beta version provided "as is" we only have a quick assembly gu
 
 ## Configuration
 
-Here are the detailed configurations for your firmware. Note that the official support of the Prusa firmware is covered in the assembly guide.
+Here are the detailed configurations for your firmware.
+
+> [!NOTE]
+> The config for the Prusa firmware is covered in the assembly guide.
 
 ➡️ [Read the configuration documentation here](doc/config)
 
@@ -123,10 +123,8 @@ Find optional parts designed by the community at [guides.bear-lab.com/Wiki/commu
 
 ## Community
 
-Here are the places where the Bear project is the most active on:
-
 * Discord server of "The 602 Wasteland" community : [discordapp.com/invite/hYUjSnW](https://discordapp.com/invite/hYUjSnW)
-* Twitter : [@gregoiresaunier](https://twitter.com/gregoiresaunier)
+* Twitter (X) : [@gregoiresaunier](https://x.com/gregoiresaunier)
 * Mastodon : [fosstodon.org/@bear_lab](https://fosstodon.org/@bear_lab)
 * GitHub : [github.com/gregsaun](https://github.com/gregsaun)
 
@@ -135,7 +133,7 @@ Do not hesitate to ask if you have a question.
 
 ## Support My Work
 
-The bear project is made possible thanks to its supporters. You can help the via
+The bear project is made possible thanks to its supporters. You can help via
 * Patreon: [patreon.com/gregsaun](https://www.patreon.com/gregsaun)
 * PayPal: [paypal.me/gregsaun](https://www.paypal.me/gregsaun)
 * GitHub Sponsor: [github.com/sponsors/gregsaun](https://github.com/sponsors/gregsaun)
