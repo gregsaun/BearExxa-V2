@@ -93,4 +93,4 @@ Read the [assembly guide here](assembly_guide/mmu_assembly_guide.pdf)
 
 ### CAD Files
 
-The native CAD (Fusion) and STEP files are available in the [/`cad/optional_parts` at the root of this repository](/cad/optional_parts)
+The native CAD (Fusion) and STEP files are available at [`/cad/optional_parts`](/cad/optional_parts)

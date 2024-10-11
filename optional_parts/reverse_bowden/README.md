@@ -86,4 +86,4 @@ The parts are designed for PETG and this is what we recommend. Please consider r
 
 ### CAD Files
 
-The native CAD (Fusion) and STEP files are available in the [/cad/optional_parts` at the root of this repository](/cad/optional_parts)
+The native CAD (Fusion) and STEP files are available at [`/cad/optional_parts`](/cad/optional_parts)
