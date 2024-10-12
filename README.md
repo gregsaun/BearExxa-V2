@@ -1,11 +1,12 @@
 # BearExxa V2
 
+
 ## Table of contents
   1. [Introduction](#introduction)
-  1. [Project Status](#project-status)
+  1. [Features](#features)
   1. [Disclaimer](#disclaimer)
+  1. [Project Status](#project-status)
   1. [How To](#how-to)
-  1. [Design Goals](#design-goals)
   1. [Compatibility](#compatibility)
   1. [Bill Of Materials](#bill-of-materials)
   1. [Printed Parts](#printed-parts)
@@ -21,21 +22,43 @@
 
 ## Introduction 
 
-This is the repository for the Bear EXtruder and X Axis version 2 (BearExxa V2). It consists of an extruder and X axis designed to improve Prusa MK2.5(S, S+) and MK3(S, S+) print quality, speed, reliability and usability. It's the successor of the [Bear Extruder and X axis V1](https://github.com/gregsaun/bear_extruder_and_x_axis). Like the previous extruder, it's fully open source.
+This is the repository for the Bear EXtruder and X Axis version 2 (BearExxa V2). It improves Prusa MK2.5(S, S+) and MK3(S, S+) print quality, speed, reliability and serviceability. It's the successor of the [Bear Extruder and X axis V1](https://github.com/gregsaun/bear_extruder_and_x_axis).
 
 ![BearExxa V2 CAD assemnly](extra/images/assembly_01.jpg)
+
+
+## Features
+
+  - Compatible with stock Prusa MK2.5(S, S+) and MK3(S, S+) hardware as well as Bear frame
+  - High print quality by solving both repetitive and inconsistent extrusion artifacts
+  - High torque and cold extruder motor for the best reliability and print quality in all conditions
+  - Light tool head but without useless compromises
+  - Filament sensor
+  - Very concentric tool head gearing
+  - Stiffer X axis
+  - Easy belt tensioning system
+  - Support multicolour printing (MMU or ERCF)
+  - Extremely easy and quick to service
+  - Optimized for high reliability
+  - E3D Revo hotend with quick swap nozzles
+  - Strong focus on safety with CE compliant hardware and careful testing
+  - Designed to be easily assembled. No special tool or adjustment required
+  - Detailed assembly guide and documentation
+  - Fully open source
+ 
+:arrow_right: [Read the detailed design goals](doc/design_goals.md) if you want to understand how we engineered those features.
+
+
+## Disclaimer
+
+This project is only to provide an alternative extruder and X axis to your Prusa printers. We are not related to Prusa Research. We cannot be taken responsible for any damages you may do by using this project nor any decision Prusa would take on you (for example: loosing warranty). This project is not for beginner and is at your own risk.
 
 
 ## Project Status
 
 Status: Currently building the repository for the Beta release
 
-This project is on hold for now. It's provided "as is" for any adventurous users interested in having a good extruder for their Prusa or Bear. The beta version of the BearExxa V2 provided here is fully functional and safe to use. The end goal is to provide a kit with all the parts and an improved stepper and hardware for better print quality and reliability (read our [Design Goals](#design-goals)).
-
-
-## Disclaimer
-
-This project is only to provide an alternative extruder and X axis to your Prusa printers. We are not related to Prusa Research. We cannot be taken responsible for any damages you may do by using this project nor any decision Prusa would take on you (for example: loosing warranty). This project is not for beginner and is at your own risk.
+This project is on hold for now. It's provided "as is" for any adventurous users interested in having a good extruder for their Prusa or Bear. The beta version of the BearExxa V2 provided here is fully functional and safe to use. The end goal is to provide a kit with all the parts and an improved stepper and hardware for better print quality and reliability (read our [Design Goals](doc/design_goals.md)).
 
 
 ## How To
@@ -50,13 +73,6 @@ How to print, build and start using the BearExxa V2:
 6. Slice and print the parts according to the [Print Settings](#print-settings)
 7. Follow the [Assembly Guide](#assembly-guide)
 8. Enjoy your new extruder :)
-
-
-## Design Goals
-
-The main goals of the BearExxa V2 are to focus on print quality, reliability, usability, precision, speed and to solve the inconsistent extrusion issue (602 issue).
- 
-:arrow_right: [Read the detailed design goals here](doc/design_goals.md)
 
 
 ## Compatibility
