@@ -32,21 +32,22 @@ This is the repository for the Bear EXtruder and X Axis version 2 (BearExxa V2).
   - Compatible with stock Prusa MK2.5(S, S+) and MK3(S, S+) hardware as well as Bear frame
   - High print quality by solving both repetitive and inconsistent extrusion artifacts
   - High torque and cold extruder motor for the best reliability and print quality in all conditions
-  - Light tool head but without useless compromises
+  - Light print head without compromising features
   - Filament sensor
-  - Very concentric tool head gearing
+  - Very concentric extruder gearing
   - Stiffer X axis
   - Easy belt tensioning system
+  - E3D Revo hotend with quick swap nozzles
   - Support multicolour printing (MMU or ERCF)
   - Extremely easy and quick to service
   - Optimized for high reliability
-  - E3D Revo hotend with quick swap nozzles
+  - Improved cable management
   - Strong focus on safety with CE compliant hardware and careful testing
   - Designed to be easily assembled. No special tool or adjustment required
   - Detailed assembly guide and documentation
   - Fully open source
  
-:arrow_right: [Read the detailed design goals](doc/design_goals.md) if you want to understand how we engineered those features.
+:arrow_right: [Read the detailed Design Goals](doc/design_goals.md) to understand how we engineered those features.
 
 
 ## Disclaimer
