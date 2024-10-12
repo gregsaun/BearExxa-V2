@@ -85,7 +85,7 @@ The BearExxa V2 is compatible with both Prusa MK2.5(S, S+) and MK3(S, S+). The o
 
 ## Bill Of Materials
 
-The BOM includes the list of printed parts and all hardware you need to build the BearExxa V2.
+The BOM includes the list of printed parts and hardware needed.
 
 :arrow_right: [Read the BOM here](doc/bom.md)
 
