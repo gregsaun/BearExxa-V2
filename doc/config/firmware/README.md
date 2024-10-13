@@ -1,6 +1,6 @@
 # BearExxa V2
 
-## Configuration
+## Firmware Configuration
 
 ### Original Prusa MK2.5(S, S+) and MK3(S, S+)
 

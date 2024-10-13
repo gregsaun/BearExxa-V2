@@ -33,17 +33,18 @@ This is the repository for the Bear EXtruder and X Axis version 2 (BearExxa V2).
   - High print quality by solving both repetitive and random extrusion artifacts
   - High torque and cold extruder motor for the best reliability and print quality in all conditions
   - Light print head without compromising features
-  - Built in filament sensor
+  - Short filament path
+  - Built-in filament sensor
   - Very concentric extruder gearing
   - Stiffer X axis
   - Efficient belt tensioning system
   - E3D Revo hotend with quick swap nozzles
   - Support multicolour printing (MMU or ERCF)
-  - Extremely easy and quick to service
+  - Quick and easy to service
   - Optimized for high reliability
   - Improved cable management
   - Strong focus on safety with CE compliant hardware and careful testing
-  - Easy to assemble, no special tool or adjustment required
+  - Easy assembly: no special tool, no crimping, no soldering and no difficult adjustments required
   - Detailed assembly guide and documentation
   - Fully open source
  
@@ -116,10 +117,10 @@ As this is only a beta version provided "as is" we only have a quick assembly gu
 
 ## Configuration
 
-Here are the detailed configurations for your firmware.
+Configurations needed are detailed in the documentation.
 
 > [!NOTE]
-> The config for the Prusa firmware is covered in the assembly guide.
+> The configuration for the Prusa is covered in the assembly guide.
 
 ➡️ [Read the configuration documentation here](doc/config)
 
