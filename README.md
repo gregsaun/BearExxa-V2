@@ -22,7 +22,7 @@
 
 ## Introduction 
 
-This is the repository for the Bear EXtruder and X Axis version 2 (BearExxa V2). It improves Prusa MK2.5(S, S+) and MK3(S, S+) print quality, speed, reliability and serviceability. It's the successor of the [Bear Extruder and X axis V1](https://github.com/gregsaun/bear_extruder_and_x_axis).
+This is the repository for the Bear EXtruder and X Axis version 2 (BearExxa V2). It improves Prusa MK2.5(S, S+) and MK3(S, S+) print quality, speed, reliability and serviceability. It's the [BearExxa V1](https://github.com/gregsaun/bear_extruder_and_x_axis) successor.
 
 ![BearExxa V2 CAD assemnly](extra/images/assembly_01.jpg)
 
@@ -43,9 +43,9 @@ This is the repository for the Bear EXtruder and X Axis version 2 (BearExxa V2).
   - Quick and easy to service
   - Optimized for high reliability
   - Improved cable management
-  - Strong focus on safety with CE compliant hardware and careful testing
-  - Easy assembly: no special tool, no crimping, no soldering and no difficult adjustments required
-  - Detailed assembly guide and documentation
+  - Special attention to safety with CE compliant hardware and careful testing
+  - No special tools, no crimping, no soldering and no difficult adjustments required during the assembly
+  - Detailed assembly guides and documentation
   - Fully open source
  
 :arrow_right: [Read our detailed Design Goals](doc/design_goals.md) to understand how we engineered those features.
@@ -53,7 +53,7 @@ This is the repository for the Bear EXtruder and X Axis version 2 (BearExxa V2).
 
 ## Disclaimer
 
-This project is only to provide an alternative extruder and X axis to your Prusa printers. We are not related to Prusa Research. We cannot be taken responsible for any damages you may do by using this project nor any decision Prusa would take on you (for example: loosing warranty). This project is not for beginner and is at your own risk.
+This project is only to provide an alternative extruder and X axis to your Prusa printers. We are not related to Prusa Research. We cannot be taken responsible for any damages you may do by using this project nor any decision Prusa would take on you (e.g.: loosing warranty). This project is at your own risk.
 
 
 ## Project Status
@@ -95,7 +95,7 @@ The BOM includes the list of printed parts and hardware needed.
 ## Printed Parts
 
 > [!WARNING]
-> It's important to follow the recommended print settings and to **calibrate your extrusion multiplier** before printing the parts (for each and every spool that you use). [Check our calibration guide here](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8).
+> Follow the recommended print settings and [**calibrate your extrusion multiplier**](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8) before printing the parts.
 
 *to do: download link*
 
@@ -103,16 +103,16 @@ The BOM includes the list of printed parts and hardware needed.
 ## Print Settings
 
 > [!WARNING]
-> It's important to follow the recommended print settings and to **calibrate your extrusion multiplier** before printing the parts (for each and every spool that you use). [Check our calibration guide here](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8).
+> Follow the recommended print settings and [**calibrate your extrusion multiplier**](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8) before printing the parts.
 
 :arrow_right: [Read the print settings here](doc/print_settings.md)
 
 
 ## Assembly Guide
 
-As this is only a beta version provided "as is" we only have a quick assembly guide.
+For the current beta version we only provide a quick assembly guide.
 
-:arrow_right: [Read the quick assembly guide for beta version here](doc/quick_assembly_guide/README.md)
+:arrow_right: [Read the quick assembly guide here](doc/quick_assembly_guide/README.md)
 
 
 ## Configuration
@@ -127,14 +127,14 @@ Configurations needed are detailed in the documentation.
 
 ## Optional Parts
 
-#### Official optional parts
+### Official optional parts
 
   - Multicolour with MMU or ERCF: [optional_parts/mmu_ercf](optional_parts/mmu_ercf)
   - Reverse Bowden: [optional_parts/reverse_bowden](optional_parts/reverse_bowden)
 
 *to do: download link*
 
-#### Community's optional parts
+### Community's optional parts
 
 Find optional parts designed by the community at [guides.bear-lab.com/Wiki/community_optional_parts](https://guides.bear-lab.com/Wiki/community_optional_parts).
 
