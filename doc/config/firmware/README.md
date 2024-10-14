@@ -15,7 +15,7 @@ In the ZIP you will find the following files:
 
 ### Prusa AIO firmware (Marlin 2.x)
 
-*to do*
+BearExya V2 is officially supported by the Prusa AIO firmware. Please refer to the [GitHub](https://github.com/thisiskeithb/PrusaAIO) and [wiki](https://github.com/thisiskeithb/PrusaAIO/wiki) for the configuration.
 
 
 ### Klipper
