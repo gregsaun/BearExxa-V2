@@ -27,18 +27,13 @@ The frame mount is available in two versions: standard or angled.
 
 ### Printed parts
 
-Use these links to download the STL:
-  - Extruder mount option 1: [e_fs_adapter_rev_bowden_no_collet.stl](printed_parts/stl/e_fs_adapter_rev_bowden_no_collet.stl?raw=true)
-  - Extruder mount option 2 adapter : [e_fs_adapter_rev_bowden_e3d_collet.stl](printed_parts/stl/e_fs_adapter_rev_bowden_e3d_collet.stl?raw=true)
-  - Extruder mount option 2 clip: [e3d_collet_clip.stl](printed_parts/stl/e3d_collet_clip.stl?raw=true)
-  - Frame mount standard: [frame_mount_standard.stl](printed_parts/stl/frame_mount_standard.stl?raw=true)
-  - Frame mount angled: [frame_mount_angled.stl](printed_parts/stl/frame_mount_angled.stl?raw=true)
-
-
+Download all optional parts with the button at [Repo Homepage -> Optional Printed Parts -> Official printed parts](/README.md
+#official-optional-parts)
+
 ## Print settings
 
 > [!WARNING]
-> The parts have been designed and tested with the parameters below and it is important to follow them to avoid issues like part cracking, bad bridging, not enough stiffness or wrong tolerances. Be sure to have a well calibrated machine and extruder. Check our guide here for [calibrating extrusion multiplier](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8?lang=en)
+> The parts have been designed and tested with the parameters below and it is important to follow them to avoid issues like part cracking, bad bridging, not enough stiffness or wrong tolerances. You must [**calibrate your extrusion multiplier**](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8?lang=en) before printing the parts.
 
 You can use the default PrusaSlicer print profile *0.20mm QUALITY @MK3* with 4 perimeters and 5 tops/bottoms layers and 20% infill. Otherwise, here are the parameters we recommend:
 

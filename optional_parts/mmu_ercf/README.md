@@ -36,21 +36,14 @@ The PTFE mount on the extruder is available in two options:
 
 ### Printed parts
 
-Use these links to download the STL:
-  - PTFE mount option 1: [e_fs_adapter_mmu2s_prusa.stl](printed_parts/stl/e_fs_adapter_mmu2s_prusa.stl?raw=true)
-  - PTFE mount option 2: [e_fs_adapter_mmu2s_e3d.stl](printed_parts/stl/e_fs_adapter_mmu2s_e3d.stl?raw=true)
-  - PTFE mount option 2 clip: [e_fs_adapter_mmu2s_e3d_clip.stl](printed_parts/stl/e_fs_adapter_mmu2s_e3d_clip.stl?raw=true)
-  - [e_fs_chimney_cover_mmu2s.stl](printed_parts/stl/e_fs_chimney_cover_mmu2s.stl?raw=true)
-  - [e_fs_chimney_mmu2s.stl](printed_parts/stl/e_fs_chimney_mmu2s.stl?raw=true)
-  - [e_fs_cover_mmu2s.stl](printed_parts/stl/e_fs_cover_mmu2s.stl?raw=true)
-  - [e_fs_lever_mmu2s.stl](printed_parts/stl/e_fs_lever_mmu2s.stl?raw=true)
-  - [e_tensioner_mmu2s.stl](printed_parts/stl/e_tensioner_mmu2s.stl?raw=true)
+Download all optional parts with the button at [Repo Homepage -> Optional Printed Parts -> Official printed parts](/README.md
+#official-optional-parts)
 
 
 ### Print settings
 
 > [!WARNING]
-> The parts have been designed and tested with the parameters below and it is important to follow them to avoid issues like part cracking, bad bridging, not enough stiffness or wrong tolerances. Be sure to have a well calibrated machine and extruder. Check our guide here for [calibrating extrusion multiplier](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8?lang=en)
+> The parts have been designed and tested with the parameters below and it is important to follow them to avoid issues like part cracking, bad bridging, not enough stiffness or wrong tolerances. You must [**calibrate your extrusion multiplier**](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8?lang=en) before printing the parts.
 
 You can use the default PrusaSlicer print profile *0.20mm QUALITY @MK3* with 4 perimeters and 5 tops/bottoms layers and 20% infill. Otherwise, here are the parameters we recommend:
 
