@@ -97,6 +97,8 @@ The BOM includes the list of printed parts and hardware needed.
 > [!WARNING]
 > Follow the recommended print settings and [**calibrate your extrusion multiplier**](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8) before printing the parts.
 
+Click here to download the recommended version (v2.0.0-beta.6):
+
 [![Static Badge](https://img.shields.io/badge/download_printed_parts-blue?style=for-the-badge)](../../releases/download/2.0.0-beta.6/bearexxa2_printed_parts.zip)
 
 
@@ -132,6 +134,8 @@ Configurations needed are detailed in the documentation.
 
   - Multicolour with MMU or ERCF: [optional_parts/mmu_ercf](optional_parts/mmu_ercf)
   - Reverse Bowden: [optional_parts/reverse_bowden](optional_parts/reverse_bowden)
+
+Click here to download all optional parts (v2.0.0-beta.6):
 
 [![Static Badge](https://img.shields.io/badge/download_optional_parts-blue?style=for-the-badge)](../../releases/download/2.0.0-beta.6/bearexxa2_optional_parts.zip)
 
