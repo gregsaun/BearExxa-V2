@@ -36,8 +36,7 @@ The PTFE mount on the extruder is available in two options:
 
 ### Printed parts
 
-Download all optional parts with the button at [Repo Homepage -> Optional Printed Parts -> Official printed parts](/README.md
-#official-optional-parts)
+Download all optional parts with the button at [Repo Homepage -> Optional Printed Parts -> Official printed parts](/README.md#official-optional-parts)
 
 
 ### Print settings
