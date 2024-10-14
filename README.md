@@ -97,7 +97,7 @@ The BOM includes the list of printed parts and hardware needed.
 > [!WARNING]
 > Follow the recommended print settings and [**calibrate your extrusion multiplier**](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8) before printing the parts.
 
-*to do: download link*
+:arrow_right: [Download printed parts (latest release)](../../releases/latest/download/bearexxa_v2.zip) or download from a specific [release](../../releases)
 
 
 ## Print Settings
@@ -132,7 +132,8 @@ Configurations needed are detailed in the documentation.
   - Multicolour with MMU or ERCF: [optional_parts/mmu_ercf](optional_parts/mmu_ercf)
   - Reverse Bowden: [optional_parts/reverse_bowden](optional_parts/reverse_bowden)
 
-*to do: download link*
+:arrow_right: [Download optional parts (latest release)](../../releases/latest/download/bearexxa_v2_optional_parts.zip) or download from a specific [release](../../releases)
+
 
 ### Community's optional parts
 
