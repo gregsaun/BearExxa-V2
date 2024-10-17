@@ -148,19 +148,19 @@ Find optional parts designed by the community at [guides.bear-lab.com/Wiki/commu
 
 ## Official Kit
 
-> [!INFO]
+> [!NOTE]
 > The official kit is not yet available. Will be sold for the first RC release.
 
 ### What's included
   - Custom stepper by LDO Motors (read the [Design Goals](doc/design_goals.md) for more information)
-  - A hotend fan with tachometer wire to pass Prusa firmware self tests and have extra safety
-  - A quality toothed idler with dual bearings and correctly sized flanges
-  - Necessary wires and textile sleeve for a clean wiring
+  - Hotend fan with tachometer wire to pass Prusa firmware self tests and have extra safety
+  - Quality toothed idler with dual bearings and correctly sized flanges
+  - Wires and textile sleeve for a clean wiring
   - Bondtech hardware
   - All the necessary small hardware (screws, nuts, dowel pins, PTFE tube, etc.)
 
 ### What's not included
-As the kit is dedicated to Original Prusa printers the kit doesn't have the following parts:
+As the kit is dedicated to Original Prusa printers the kit doesn't include:
   - Z axis Lead screw nuts
   - X axis smooth rods
   - X and Z axis bearings
@@ -168,7 +168,7 @@ As the kit is dedicated to Original Prusa printers the kit doesn't have the foll
   - Filament sensor ball and magnets
   - SuperPinda (or Pinda v2)
 
-To allow flexibility on the hotend side, the following hardware is not included:
+To allow flexibility on the hotend side the kit doesn't include:
   - E3D Revo Micro heatsink
   - E3D Revo HeaterCore
   - E3D Revo nozzle
