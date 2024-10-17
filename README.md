@@ -14,6 +14,7 @@
   1. [Assembly Guide](#assembly-guide)
   1. [Configuration](#configuration)
   1. [Optional Parts](#optional-parts)
+  1. [Official Kit](official-kit)
   1. [Community](#community)
   1. [Support My Work](#support-my-work)
   1. [Credits And Thank you](#credits-and-thank-you)
@@ -143,6 +144,16 @@ Click here to download all optional parts (v2.0.0-beta.6):
 ### Community's optional parts
 
 Find optional parts designed by the community at [guides.bear-lab.com/Wiki/community_optional_parts](https://guides.bear-lab.com/Wiki/community_optional_parts).
+
+
+## Official Kit
+
+We will sell an official kit manufactured by LDO Motors starting from RC and final releases. This kit will include:
+  - Custom stepper by LDO Motors (read the [Design Goals](doc/design_goals) for more information)
+  - A hotend fan with tachometer wire to pass Prusa firmware self tests and have extra safety
+  - A quality toothed idler with dual bearings and correctly sized flanges
+  - Necessary wires and textile sleeve for a clean wiring
+  - All the necessary small hardware (screws, nuts, dowel pins, PTFE tube, etc.)
 
 
 ## Community
