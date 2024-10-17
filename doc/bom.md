@@ -4,7 +4,7 @@
 
 ### Introduction
 
-The hardware list below is to build the extruder from scratch. It does includes all the hardware like if you didn't have a printer.
+The hardware list below is to build the extruder from scratch. It does include all the hardware like if you didn't have a printer.
 
 
 ### Hardware X Axis
@@ -47,7 +47,7 @@ The hardware list below is to build the extruder from scratch. It does includes 
 | E3D Revo Micro heatsink                       |     1    | [E3D store](https://e3d-online.com/products/revo-micro-heatsink)                    |
 | E3D Revo Micro fan                            |     1    | [E3D store](https://e3d-online.com/products/revo-micro-fan)                         |
 | E3D Revo 0.4mm brass nozzle                   |     1    | [E3D store](https://e3d-online.com/products/revo-nozzles?variant=40923127808059)    |
-| E3D Revo Heater Core 24V 40W 104-NT           |     1    | [E3D store](https://e3d-online.com/products/revo-heatercore?variant=39842664874043) |
+| E3D Revo Heater Core 12V/24V 40W 104-NT       |     1    | 12V for MK2.5(S, S+)<br>24V for MK3(S, S+)<br>[E3D store](https://e3d-online.com/products/revo-heatercore?variant=39842664874043) |
 | Pancake motor Nema 17 25mm LDO 42STH25-1004AC or Bondtech BMG OSM 17HS10-0704S |     1    | [Bondtech store](https://www.bondtech.se/product/nema17-pancake-stepper-25mm) |
 | Prusa filament sensor with cable              |     1    |                |
 | Prusa 7mm steel ball                          |     1    |                |
