@@ -9,34 +9,36 @@
 1. [Reliability](#reliability)
 1. [Weight, rigidity and speed](#weight-rigidity-and-speed)
 1. [Custom extruder motor](#custom-extruder-motor)
-1. [Usability and maintenance](#usability-and-maintenance)
+1. [Serviceability and maintenance](#serviceability-and-maintenance)
 1. [Safety](#safety)
 1. [FAQ](#faq)
 
 ### Introduction
 
-The main goals of the BearExxa V2 are to use a better hotend and geared extruder to improve the print quality, reliability, usability, precision, speed and to solve inconsistent extrusion issue (602 issue).
+The main goals of the BearExxa V2 are to use a better hotend and geared extruder to improve the print quality, reliability, serviceability, precision, speed and to solve inconsistent extrusion issue (602 issue).
+
+There are several ways to achieve this and it's a question of what compromises you do and how you test things. In this page we describe our design process and the goals we have set to achieve the BearExxa V2.
 
 ![BearExxa V2 assembly](../extra/images/assembly_01.jpg)
 
 
 ### Print quality
 
-This extruder improves print quality by using a geared extruder, a well engineered hotend and several design features. Here is how we have cured the 602 issue (inconsistent extrusion issue) as well as improving even further the print quality:
+This extruder improves print quality by using a geared extruder, a well engineered hotend and several thoroughly designed features. Here is how we have cured the 602 issue (inconsistent extrusion issue) as well as improving even further the print quality:
 
-#### Random extrusion artifacts and accuracy
+#### Random extrusion artifacts and precision
 
 The first crucial aspect to get quality prints is to handle the filament precisely and rigidly down to the melt zone.
 
-To achieve this we use a perfectly aligned, short and smooth filament path to reduce any potential friction. The path is shorter than on the original MK3S.
+To achieve this we use a perfectly aligned, short and smooth filament path to reduce any potential friction. The path is shorter than on the original MK3(S, S+).
 
 ![BearExxa V2 filament path length comparison](../extra/images/filament_path_comparison.jpg)
 
-We use a NEMA 17 pancake motor to keep the hobb gears and cavity as cold as possible, even on long PLA prints in enclosure with doors closed. 
+We use a NEMA 17 pancake motor to keep the hobb gears and its cavity as cold as possible, even on long PLA prints in enclosure with doors closed. This helps to keep the filament as rigid as possible before the hotend and so increase precision.
 
-We are also using the small set of the dual Bondtech hobb gears as its diameter allows to catch the filament exiting the hobb gears closer than with a larger diameter. It reduces chances for the filament to go out of the path like it could happen with flexible filaments.
+We are also using the small set of the dual Bondtech hobb gears as its small diameter allows to catch the filament exiting the hobb gears closer than with a larger diameter. It reduces chances for the filament to go out of the path like it could happen with flexible filaments.
 
-Then comes the hotend, we chose the E3D Revo because we have observed that it's particularly good at reducing random artifacts on perimeters compared to some competitors we have evaluated or tested. But it needs a good control of the filament on both cold and hot sides, so we took care of the airflow and thermal management to get a very sharp thermal transition in the heatbreak. This is achieved with the Revo Micro heatsink, a properly sized fan and a careful design.
+Then comes the hotend, we chose the E3D Revo because we have observed that it's particularly good at reducing random artifacts on perimeters compared to some competitors we have evaluated or tested. But it needs a good control of the filament on both cold and hot sides, so we took care of the airflow and thermal management to get a very sharp thermal transition in the heatbreak. This is achieved with the Revo Micro heatsink, a properly sized fan and a careful aiflow's management.
 
 ![BearExxa V2 Hotend and its fan](../extra/images/e3d_revo_micro_02.jpg)
 
@@ -53,7 +55,7 @@ The extruder uses a gear ratio of 3:1 (with beta release) or almost 4:1 (with th
 
 We took care of using appropriate teeth numbers to have a smooth rotation and to reduce the wear on the teeth (e.g. coprime number of teeth, hardened teeth, large surface of contact). We believe that the print quality should be the same even after many hours of use!
 
-The custom motor has enough torque to be sure that we don't make the motor steps more visible when the pressure increases in the hotend due non-optimal settings or other small issues (wider extrusion, partial clog, too high flow rate, ...). This custom motor has a very concentric gear that will reduce variations in the rotation. For the final release we are also planning to use the all in one piece Bondtech shaft and hobb gear (IDGA) to once again reduce the variations.
+The custom motor has enough torque to not make the motor's steps more visible when the pressure increases in the hotend due non-optimal settings or other small issues (wider extrusion, partial clog, too high flow rate, ...). This custom motor has a very concentric gear that will reduce variations in the rotation. For the final release we are also planning to use the all in one piece Bondtech shaft and hobb gear (IDGA) to once again reduce the variations.
 
 All those features **improve the so called "moiré pattern" (also called basket wave or wood grain pattern)** or, in other words, the repetitive extrusion artifacts.
 
@@ -83,26 +85,26 @@ We use the E3D Revo Micro hotend for its professional support and compliances wi
 
 We placed the nozzle fan blower in vertical to maximise the lifespan of its bearings, to not get warmer air when the extruder is close to the bed and, once again, to avoid getting strings in the fan blades.
 
-Unlike the Original Prusa MK3S extruder, the filament path is in one piece to avoid a potential misalignment during assembly that would affect its smoothness. It is also shorter than MK3S extruder.
+Unlike the Original Prusa MK3S and MK3S+ extruder, the filament path is in one piece to avoid a potential misalignment during assembly that would affect its smoothness. It's also shorter than the original Prusa extruder.
 
 ![BearExxa V2 unibody filament path](../extra/images/unibody_filament_path.jpg)
 
 Every printed parts and features have been tested carefully. When rigidity or brittleness could be affected we made internal reinforcements within the infill to reduce any risks.
 
-We also make sure that no special adjustments or tools are required during the assembly and maintenance. With the final release, we will provide detailed assembly guide, as we always do, to avoid any potential assembly issues.
+We also make sure that no special adjustments or tools are required during the assembly and maintenance. With the final release we will provide detailed assembly guide, as we always do, to avoid any potential assembly issues.
 
 
 ### Weight, rigidity and speed
 
 Despite a larger motor than what's commonly used these days, a lot of work have been implemented to make the extruder as light as possible, even lighter than some extruders widely used in the community! Let's dive into how we achieved this.
 
-First it's important to remember that a bed slinger printer doesn't have to carry the weight of the gantry like on a CoreXY machine, which means the mass in motion is lighter than we could first think. However, obviously, the bed is heavy and will be the bottleneck.
+First, it's important to remember that a bed slinger printer doesn't have to carry the weight of the gantry like on a CoreXY machine, which means the mass in motion is lighter than we could first think. However, obviously, the bed is heavier and will be the bottleneck.
 
-On our design, we reduced the weight by using a light and small hotend (including the fan), using a single stage spur gears instead of heavier planetary gears, lowering the number of screws, using small hobb gears, carefully selecting the hardware, not adding extra useless features and designing a compact body.
+On our design, we reduced the weight by using a light and small hotend (including the fan), using a single stage spur gears instead of a heavier planetary gearbox, lowering the number of screws, using small hobb gears, carefully selecting the hardware, not adding extra useless features and designing a compact body.
 
 ![E3D Revo Micro and its fan](../extra/images/e3d_revo_micro.jpg)
 
-As you can see we took care of every weight reduction that matters but we didn't stop there. The X axis is stiffer thanks to several design details: we use clamps on the Z axis bearings, X motor is closer to the Z axis, the belt tensioner is stiff and we optimized how deep the smooth rods are inserted in the X ends.
+As you can see we took care of every weight reduction that matters but we didn't stop there. The X axis is stiffer thanks to several design startegies: we use clamps on the Z axis bearings, X motor is closer to the Z axis, the belt tensioner is stiff and we optimized how deep the smooth rods are inserted in the X ends.
 
 
 ### Custom extruder motor
@@ -112,14 +114,14 @@ As you can see we took care of every weight reduction that matters but we didn't
 
 The final release will use a custom extruder motor by LDO Motors. It was a difficult choice to take as we want to be as open hardware as possible but the improvements are significant.
 
-This custom motor uses a carefully selected gear ratio for smoother print quality and  minimising teeth wear. It has a special construction to make the gear very concentric and so to reduce variations in extrusion. It also helps to reduce the total weight.
+This custom motor uses a carefully selected gear ratio (almost 4:1) for smoother print quality and to minimise the teeth wear (e.g. coprime number of teeth, hardened teeth, large surface of contact). It has a special construction to make the motor gear very concentric and so to reduce extrusion variations. It also helps to reduce the total weight.
 
 The back of the motor is almost empty inside, it has been made thicker to accommodate a connector. Like this, we reduce the maintenance time and so be quicker to restart printing.
 
-Finally, the motor specs are optimized for original Prusa printers to provide a safe amount of torque on all occasions as well as keeping the motor cold for long PLA prints in enclosure. We chose a motor that has just enough torque to grind the filament in case of a blockage. This is to avoid problems where the spool or the filament path has lots of friction (didn't we all have a failed print due to this?), to fight slightly non-optimal settings that could force on the hotend's flow, to resolve a small heat creep or, why not, to later automate things like cold pulls. We believe that a finished print is always better than a failed one that will be sent to trash (even if the quality is a bit below what you wanted to achieve).
+Finally, the motor specs are optimized for original Prusa printers to provide a safe amount of torque on all occasions as well as keeping the motor cold for long PLA prints in enclosure. We chose a motor that has just enough torque to grind the filament in case of a blockage. This is to avoid problems where the spool or the filament path has lots of friction (didn't we all have a failed print due to this?), to fight slightly non-optimal settings that could force on the hotend's flow, to resolve a small heat creep and to ensure manufacturing tolerances are covered (including the precision of your printed parts). With higher torque we could also imagine to later automate things like cold pulls. We believe that a finished print is always better than a failed one that will be sent to trash (even if the quality is a bit below what you wanted to achieve), so high torque was a crucial feature for us.
 
 
-### Usability and maintenance
+### Serviceability and maintenance
 
 Thanks to the E3D Revo ecosystem you can swap nozzles with two fingers in a few seconds. And to make this even easier, you can remove the hotend fan duct with a thumb screw.
 
@@ -146,7 +148,7 @@ The back of the X carriage is made into two parts to access all the wiring and t
 
 ### Safety
 
-We are really careful with the safety of our project, especially as it's DIY and open source. A 3D printer is a machine melting flammable plastic for hours and hours, it must be safe!
+We can be very picky when it comes to the safety of our project, especially as it's DIY and open source. A 3D printer is a machine melting flammable plastic for hours and hours, it must be safe!
 
 We chose the E3D Revo hotend for its worldwide compliances (CE, UKCA RoHS, etc.). It's also particularly interesting that the  Revo is using a PTC heater which offers an extra safety in case of thermal runaway. Our design makes sure that the wire harness of the HeaterCore is kept straight and that no wires have sharp angle. The original Revo cables can be used, no crimping or cutting is required. The hotend fan that will come with the final kit will have the tachometer wire to detect a fan failure.
 
@@ -154,7 +156,7 @@ We recommend PETG for the extruder parts because its a safe filament to use. It 
 
 We provide detailed documentation, assembly guides and many other helps. Like this you reduce as much as possible the issues during assembly, printing, maintenance and have many resources in case of problems. If it's not enough we are here to provide support, there are no bad questions.
 
-We only recommend genuine Bondtech, E3D, LDO Motors, and Prusa hardware for the best safety and support possible. We will provide an official kit that has been carefully designed and controlled (manufactured by LDO Motors).
+We only recommend genuine Bondtech, E3D, LDO Motors, and Prusa hardware for the best safety and support possible. We will provide an official kit that has been carefully designed and controlled (manufactured by LDO Motors). Using clone parts from another manufacturer is a risk of incompatibility, reliablitiy, legality and even fire.
 
 
 ### FAQ
@@ -163,20 +165,20 @@ We only recommend genuine Bondtech, E3D, LDO Motors, and Prusa hardware for the 
 Hex or square nuts have a stronger pulling resistance than heat insert. We use carefully selected clearances to make sure the hex nuts will not move from their pocket. The nuts also take less place than heat insert. We can also simulate a lock nut by making the screw hole in the plastic a little bit smaller. It's easier to remove them from an older part to transfer them to a new one. Finally, no special tool is required.
 
 #### Why the nozzle fan blower is in vertical and not angled like Prusa does?
-It's to increase the lifespan of its bearings, to not get warmer air when we are close to the bed and to not grab strings with the fan blades. The nozzle fan duct is optimized for the 90° angle and perform better than the Original MK3(s) according to our tests.
+It's to increase the lifespan of its bearings, to not get warmer air when we are close to the bed and to not grab strings with the fan blades. The nozzle fan duct is optimized for the 90° angle and perform better than the Original MK3(S, S+) according to our tests.
 
-#### Why do you recommend PETG?
-PETG has an excellent layer bonding, is easy to print, has high precision due to low shrinkage, is semi fire retardant and produces less nasty fumes. Its temperature resistance is more toward printing PLA or PETG (even in enclosure) which are the most used filaments in the community. If you are an advanced user that want to print higher temperature material we recommend to use ABS, ASA or PC (and compensate for the shrinkage).
+#### Why do you recommend PETGfor the parts?
+PETG has an excellent layer bonding, is easy to print, has high precision due to low shrinkage, is kind of semi fire retardant and produces less nasty fumes than styrene based filaments. Its temperature resistance is more toward printing PLA or PETG parts (even in enclosure) which are the most used filaments in the community. If you are an advanced user that want to print higher temperature material we recommend to use ABS, ASA or PC (and compensate for the shrinkage).
 
 > [!CAUTION]
-> We highly recommend to avoid high flow filaments (worse material properties as non high flow) as well as glass fibers or carbon fiber filaments (potentially carcinogenic, read more [here](https://hackaday.com/2024/08/07/on-carbon-fiber-types-and-their-carcinogenic-risks/)).
+> We highly recommend to avoid high flow filaments (worse material properties as non high flow) as well as glass fiber or carbon fiber filaments ([potentially carcinogenic](https://hackaday.com/2024/08/07/on-carbon-fiber-types-and-their-carcinogenic-risks/)). You must ventilate your room and filter your enclosure (HEPA + activated carbon) if you print styrene based filament like ABS, ASA or PC.
 
 #### Why don't you use a smaller extruder motor?
 We have explained the reason in details in the sections "Print quality", "Reliability" and "Weight, rigidity and speed".
 
 The extra weight is compensated by other lighter parts, low hardware count and an overall compact design. Also, it would be very hard to see a print quality improvement with a lighter motor because, on a bed slinger, we are only moving the extruder (unlike CoreXY which also moves the gantry) and the bed is the heaviest part. 
 
-Furthermore, a larger motor can run colder and so improve print quality and reliability of a long PLA print in an enclosure (door closed). We can also have higher torque and increase the gears' lifespan, which both increase reliability and reduce maintenance.
+Furthermore, a larger motor can run colder and so improves print quality and reliability of a long PLA print in an enclosure (door closed). We can also have higher torque and increase the gears' lifespan, which both increase reliability and reduce maintenance.
 
 #### Why do you use the Revo Micro heatsink and not the Revo Voron heatsink?
 The Revo Micro heatsink has slightly more surface in contact with the airflow, especially when used with a smaller and lighter fan. The round shape is also easier to optimize for optimal airflow. The screw mount may sound like it may rotate but we did a self tightening system that avoid this to happen.
@@ -193,4 +195,4 @@ When we released the beta BearExxa V2, the IDGA gear was unfortunately not avail
 Yes we want to work on this but at the moment we focus on stock Prusa MK3S+ hardware.
 
 #### Do you support MK3.5S?
-We don't know yet but it might be possible. We are looking for feedback if you try the adventure.
+We don't know yet but it might be possible. We are [looking for help](https://github.com/gregsaun/BearExxa-V2/issues/1) if you try the adventure.
