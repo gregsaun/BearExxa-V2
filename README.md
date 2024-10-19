@@ -9,7 +9,7 @@
   1. [How To](#how-to)
   1. [Compatibility](#compatibility)
   1. [Bill Of Materials](#bill-of-materials)
-  1. [Printed Parts](#printed-parts)
+  1. [Download](#download)
   1. [Print Settings](#print-settings)
   1. [Assembly Guide](#assembly-guide)
   1. [Configuration](#configuration)
@@ -71,7 +71,7 @@ How to print, build and start using the BearExxa V2:
 1. Read the [Project Status](#project-status), [Disclaimer](#disclaimer) and [Compatibility](#compatibility) to make sure you agree to the limitations
 2. Buy the official BearExxa v2 kit or gather the parts using the [BOM](#bill-of-materials)
 3. Buy the filament according to the [Print Settings](#print-settings)
-4. Download the [Printed Parts](#printed-parts)
+4. [Download](#download) the BearExxa V2 printed parts and documentation
 5. Calibrate your filaments with our [Calibration Guide](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8)
 6. Slice and print the parts according to the [Print Settings](#print-settings)
 7. Follow the [Assembly Guide](#assembly-guide)
@@ -93,14 +93,11 @@ The BOM includes the list of printed parts and hardware needed.
 :arrow_right: [Read the BOM here](doc/bom.md)
 
 
-## Printed Parts
-
-> [!WARNING]
-> Follow the recommended print settings and [**calibrate your extrusion multiplier**](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8) before printing the parts.
+## Download
 
 Click here to download the recommended version (v2.0.0-beta.6):
 
-[![Static Badge](https://img.shields.io/badge/download_parts_&_doc-blue?style=for-the-badge)](../../releases/download/2.0.0-beta.6/bearexxa2.zip)
+[![Static Badge](https://img.shields.io/badge/download_bearexxa_v2_files-blue?style=for-the-badge)](../../releases/download/2.0.0-beta.6/bearexxa2.zip)
 
 
 
@@ -126,7 +123,7 @@ Configurations needed are detailed in the documentation.
 > [!NOTE]
 > The configuration for the Prusa is covered in the assembly guide.
 
-➡️ [Read the configuration documentation here](doc/config)
+➡️ [Find the configuration here](doc/config)
 
 
 ## Optional Parts
