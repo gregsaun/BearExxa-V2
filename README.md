@@ -100,7 +100,7 @@ The BOM includes the list of printed parts and hardware needed.
 
 Click here to download the recommended version (v2.0.0-beta.6):
 
-[![Static Badge](https://img.shields.io/badge/download_printed_parts-blue?style=for-the-badge)](../../releases/download/2.0.0-beta.6/bearexxa2_printed_parts.zip)
+[![Static Badge](https://img.shields.io/badge/download_parts_&_doc-blue?style=for-the-badge)](../../releases/download/2.0.0-beta.6/bearexxa2.zip)
 
 
 
