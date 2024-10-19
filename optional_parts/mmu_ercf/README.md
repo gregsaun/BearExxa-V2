@@ -36,7 +36,7 @@ The PTFE mount on the extruder is available in two options:
 
 ### Printed parts
 
-Download all optional parts with the button at [Repo Homepage -> Optional Printed Parts -> Official printed parts](/README.md#official-optional-parts)
+Download all optional parts with the button at [Repo Homepage -> Optional Parts -> Official optional parts](/README.md#official-optional-parts)
 
 
 ### Print settings
@@ -46,18 +46,18 @@ Download all optional parts with the button at [Repo Homepage -> Optional Printe
 
 You can use the default PrusaSlicer print profile *0.20mm QUALITY @MK3* with 4 perimeters and 5 tops/bottoms layers and 20% infill. Otherwise, here are the parameters we recommend:
 
-  * Slicer : PrusaSlicer
-  * Nozzle size : 0.4mm
-  * Layer height : 0.2mm
-  * Infill : 20% Cubic or 20% Gyroid
-  * Number of perimeters : 4
-  * Number of top/bottom layers : 5
-  * Default extrusion width : 0.45mm
-  * Perimeters width : 0.45mm
-  * External perimeters width : 0.45mm
-  * Support : No
-  * Brim : No
-  * Detect thin walls : No
+  - Slicer : PrusaSlicer
+  - Nozzle size : 0.4mm
+  - Layer height : 0.2mm
+  - Infill : 20% Cubic or 20% Gyroid
+  - Number of perimeters : 4
+  - Number of top/bottom layers : 5
+  - Default extrusion width : 0.45mm
+  - Perimeters width : 0.45mm
+  - External perimeters width : 0.45mm
+  - Support : No
+  - Brim : No
+  - Detect thin walls : No
 
 
 ### Filament type
