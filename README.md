@@ -118,10 +118,10 @@ For the current beta version we only provide a quick assembly guide.
 
 ## Configuration
 
-Configurations needed are detailed in the documentation.
+Configurations needed for steppers and extruder values.
 
 > [!NOTE]
-> The configuration for the Prusa is covered in the assembly guide.
+> The configuration for the Original Prusa MK2.5(S, S+) and MK3(S, S+) is covered in the assembly guide.
 
 ➡️ [Find the configuration here](doc/config)
 
