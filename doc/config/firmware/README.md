@@ -14,9 +14,7 @@
 
 Due to the gear ratio of the BearExxa V2 we need to configure the estep and microstepping values.
 
-➡️ [Download the config files `prusa_original/config_prusa_original_bearexxav2_beta.zip`](./prusa_original/config_prusa_original_bearexxav2_beta.zip).
-
-At [prusa_original/config_prusa](prusa_original/config_prusa) you will find the following files:
+In the folder [prusa_original](prusa_original) you will find the following files:
   - `bearexxa2_config.gcode`: Use this file to setup microstepping and estep.
   - `reset_config_to_prusa_mk2.5-2.5s-3-3s.gcode`: Use this file to reset changes previously applied for BearExxa v2 to stock Prusa config.
 
