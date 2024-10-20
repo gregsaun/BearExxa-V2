@@ -20,4 +20,25 @@ BearExya V2 is officially supported by the Prusa AIO firmware. Please refer to t
 
 ### Klipper
 
-*to do*
+#### Extruder
+```
+rotation_distance: 22.616
+microsteps: 32
+full_steps_per_rotation: 200
+gear_ratio: 2.94:1
+sensor_type: ATC Semitec 104GT-2
+```
+
+
+#### Extruder motor driver
+For TMC2209 and TMC2130 using the Klipper extension  [klipper_tmc_autotune](https://github.com/andrewmcgr/klipper_tmc_autotune).
+
+```
+run_current: .42
+```
+
+#### X axis motor driver
+For TMC2209 and TMC2130 using the Klipper extension  [klipper_tmc_autotune](https://github.com/andrewmcgr/klipper_tmc_autotune).
+```
+run_current: .5
+```
