@@ -55,7 +55,7 @@ The extruder uses a gear ratio of 3:1 (with beta release) or almost 4:1 (with th
 
 We took care of using appropriate teeth numbers to have a smooth rotation and to reduce the wear on the teeth (e.g. coprime number of teeth, hardened teeth, large surface of contact). We believe that the print quality should be the same even after many hours of use!
 
-The custom motor has enough torque to not make the motor's steps more visible when the pressure increases in the hotend due non-optimal settings or other small issues (wider extrusion, partial clog, too high flow rate, ...). This custom motor has a very concentric gear that will reduce variations in the rotation. For the final release we are also planning to use the all in one piece Bondtech shaft and hobb gear (IDGA) to once again reduce the variations.
+The custom motor has enough torque to not make the motor's steps more visible when the pressure increases in the hotend due to non-optimal settings or other small issues (wider extrusion, partial clog, too high flow rate, ...). This custom motor has a very concentric gear that will reduce variations in the rotation. For the final release we are also planning to use the all in one piece Bondtech shaft and hobb gear (IDGA) to once again reduce the variations.
 
 All those features **improve the so called "moiré pattern" (also called basket wave or wood grain pattern)** or, in other words, the repetitive extrusion artifacts.
 
@@ -150,7 +150,7 @@ The back of the X carriage is made into two parts to access all the wiring and t
 
 We can be very picky when it comes to the safety of our project, especially as it's DIY and open source. A 3D printer is a machine melting flammable plastic for hours and hours, it must be safe!
 
-We chose the E3D Revo hotend for its worldwide compliances (CE, UKCA RoHS, etc.). It's also particularly interesting that the  Revo is using a PTC heater which offers an extra safety in case of thermal runaway. Our design makes sure that the wire harness of the HeaterCore is kept straight and that no wires have sharp angle. The original Revo cables can be used, no crimping or cutting is required. The hotend fan that will come with the final kit will have the tachometer wire to detect a fan failure.
+We chose the E3D Revo hotend for its worldwide compliances (CE, UKCA RoHS, etc.). It's also particularly interesting that the  Revo is using a PTC heater which offers an extra safety in case of thermal runaway. Our design ensure that the wire harness of the HeaterCore is kept straight and that no wires have sharp angle. No crimping, cutting or soldering is required. The hotend fan that will come with the final kit will have the tachometer wire to detect a fan failure.
 
 We recommend PETG for the extruder parts because its a safe filament to use. It doesn't burn easily and do not release too much nasty fumes. The extruder has obviously been tested to support the temperature for long prints.
 
@@ -167,7 +167,7 @@ Hex or square nuts have a stronger pulling resistance than heat insert. We use c
 #### Why the nozzle fan blower is in vertical and not angled like Prusa does?
 It's to increase the lifespan of its bearings, to not get warmer air when we are close to the bed and to not grab strings with the fan blades. The nozzle fan duct is optimized for the 90° angle and perform better than the Original MK3(S, S+) according to our tests.
 
-#### Why do you recommend PETGfor the parts?
+#### Why do you recommend PETG for the parts?
 PETG has an excellent layer bonding, is easy to print, has high precision due to low shrinkage, is kind of semi fire retardant and produces less nasty fumes than styrene based filaments. Its temperature resistance is more toward printing PLA or PETG parts (even in enclosure) which are the most used filaments in the community. If you are an advanced user that want to print higher temperature material we recommend to use ABS, ASA or PC (and compensate for the shrinkage).
 
 > [!CAUTION]
@@ -184,7 +184,7 @@ Furthermore, a larger motor can run colder and so improves print quality and rel
 The Revo Micro heatsink has slightly more surface in contact with the airflow, especially when used with a smaller and lighter fan. The round shape is also easier to optimize for optimal airflow. The screw mount may sound like it may rotate but we did a self tightening system that avoid this to happen.
 
 #### Why don't you officially support other hotends?
-Using a single hotend allow us to optimize a lot of design's aspects like size, weight, filament path, etc. Supporting a single hotend means we can also have a more reliable testing and provide quality support. Finally, we choose E3D-Online Ltd. because their products have all the worldwide safety compliances, they provide a full ecosystem, they made deep research and engineering on how a hotend works and they have a professional support for their customers.
+Using a single hotend allow us to optimize a lot of design's aspects like size, weight, filament path, etc. Supporting a single hotend means we can also have a more reliable testing and provide quality support. Finally, we choose E3D-Online Ltd. because their products have all the worldwide safety compliances, they provide a full ecosystem, they do deep research and engineering on how a hotend works and they have a professional support for their customers.
 
 #### Why don't you use the Bondtech IDGA gear?
 We are well aware of the IDGA benefits. We have actually talked about it with Bondtech engineers several years ago when the Bondtech Prusa extruder was introduced and more recently for the development of the IDGA. We also thought to design our own gears as we see improvements but making a custom motor was already a big step.
@@ -192,7 +192,7 @@ We are well aware of the IDGA benefits. We have actually talked about it with Bo
 When we released the beta BearExxa V2, the IDGA gear was unfortunately not available and so it's not supported yet. We will make the final version compatible with BMG IDGA or OEM IDGA (we don't know which one is best yet). However, we can guarantee that even without the IDGA the print quality is a big step over BearExxa V1 and 602 pattern (moiré, wood grain. inconsistency) has been drastically reduced.
 
 #### Would it be possible to use a stronger fan like the one on the MK4S?
-Yes we want to work on this but at the moment we focus on stock Prusa MK3S+ hardware.
+Yes we want to work on this but at the moment we focus on stock Prusa MK3(S, S+) hardware.
 
 #### Do you support MK3.5S?
-We don't know yet but it might be possible. We are [looking for help](https://github.com/gregsaun/BearExxa-V2/issues/1) if you try the adventure.
+We don't know yet but it might be possible. We are [looking for help](https://github.com/gregsaun/BearExxa-V2/issues/1) if you want to try the adventure.
