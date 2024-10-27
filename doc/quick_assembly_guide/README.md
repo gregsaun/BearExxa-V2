@@ -78,7 +78,7 @@ The current E3D Micro hotend fan does not have a tachometer wire so we need to d
   4. Once the fan detection is done, plug back the E3D Revo Micro fan
   5. Follow steps 14 to 16
 
-> [! WARNING]
+> [!WARNING]
 > Any issues reported during the self test must be fixed before continuing further.
 
 
