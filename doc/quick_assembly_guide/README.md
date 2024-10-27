@@ -63,7 +63,7 @@ We now need to configure extruder steps per millimeters to 415 and microstepping
   1. You can now remove the SD card and delete the file
 
 ### Part 14
-The current E3D Micro hotend fan does not have a tachometer wire so we need to deactivate the fan check :
+The current E3D Micro hotend fan does not have a tachometer wire so we need to deactivate the fan check:
   1. In the LCD menu, go to `Settings -> Fans Check`
   1. Select `OFF`
 
@@ -71,16 +71,19 @@ The current E3D Micro hotend fan does not have a tachometer wire so we need to d
 > The official kit will contains a fan with the tachometer wire and you will not needed to disable this features anymore. 
 
 ### Part 15
-  1. Before continuing at the STEP 13 temporarily plug the original Prusa hotend fan 40x40 (Noctua or Delta) before running the self test.
-  2. Once the fan detection is done, plug back the E3D Revo Micro fan
-  3. Follow steps 14 to 16
+  1. Temporarily plug the original Prusa hotend fan 40x40 (Noctua or Delta) on the Einsy Rambo
+  2. Run the self tests using `LCD Menu -> Calibration -> Selftest
+  3. Once the fan detection is done, plug back the E3D Revo Micro fan
+  4. Follow steps 14 to 16
+
+> [! WARNING]
+> Any issues reported during the self test must be fixed before continuing further.
 
 
 ### Part 16 (Optional)
-> [!NOTE]
-> This step is optional. It will explain you how to use latest Prusa firmware but it's not a necessity nor safer. You can use the Bear calibration firmware to print as a normal Prusa firmware.
+This step is optional. It explains how to use the latest Prusa firmware but it's not a necessity nor safer. You can use the Bear calibration firmware to print as a normal Prusa firmware.
 
-First we need to flash the latest Prusa firmware
+First we need to flash the latest Prusa firmware:
   1. Download the [latest Prusa firmware](https://github.com/prusa3d/Prusa-Firmware/releases/latest). You do not need to download the special E3D Revo firmware version 
   2. With a web browser, go to [https://guides.bear-lab.com -> Extruder and X Axis -> Bear Extruder> Assembly guide -> 5. Final adjustments and calibration](https://guides.bear-lab.com/Guide/5.+Final+adjustments+and+calibration/38?lang=en)
   3. Follow step 10 to 12  to flash the latest Prusa firmware (instead of Bear calibration firmware)
@@ -89,19 +92,18 @@ Then we need to set the hotend fan to always run at 100% speed and disable fan c
   1. In the LCD menu go to `Settings -> HW Setup`, then scroll to any menu item and hold the knob for 3 seconds until you hear a "click"
   2. Scroll again the same menu and you should now see a new `Experimental` option in the bottom
   3. Enter in this `Experimental` menu and then set `ALTFAN det.` to `OFF`
-  4. Go back to the main LCD menu and `Settings -> Fans Check`
-  5. Select `OFF`
+  4. Go back to the main LCD menu and `Settings -> Fans Check` and select `OFF`
   
-Then we need to disable the new "Thermal Model" for the hotend to rollback to standard PID method used up to Prusa firmware 3.11.x:
+Finally we need to disable the new "Thermal Model" for the hotend to rollback to standard PID method used up to Prusa firmware 3.11.x:
   1. Using [Octoprint](https://help.prusa3d.com/article/crash-dump_364959#octoprint) or [PuTTy](https://help.prusa3d.com/article/crash-dump_364959#putty), send the following commands:  
   `M310 S0`  
   `M500`  
-  2. In `LCD Menu -> Settings -> Temperature -> Fan speed` set the value at 130 if you print lots of PETG and 255 if you print lots of PLA. For other materials select a value suitable for your most used filament.
+  2. In `LCD Menu -> Settings -> Temperature -> Fan speed` set the value at 130 if you print lots of PETG and 255 if you print lots of PLA. For other materials select a value suitable for your most used filament
   3. Run the hotend PID calibration with the `LCD Menu -> Calibration -> PID calibration` for a temperature that matches your most used printing temperature
   4. Once finished, shutdown the printer
 
 > [!TIP]
-> You can find more information on the Prusa website for the [experimental menu here](https://help.prusa3d.com/article/experimental-menu-mk3-s-_161213) and for the new  ["Thermal Model" here](https://help.prusa3d.com/article/thermal-model-calibration_382488).
+> You can find more information on the Prusa website about the [experimental menu here](https://help.prusa3d.com/article/experimental-menu-mk3-s-_161213) and the new  ["Thermal Model" here](https://help.prusa3d.com/article/thermal-model-calibration_382488).
 
 ### Part 17
 All done, enjoy the new extruder and X axis :)
