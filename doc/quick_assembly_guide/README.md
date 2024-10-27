@@ -71,10 +71,12 @@ The current E3D Micro hotend fan does not have a tachometer wire so we need to d
 > The official kit will contains a fan with the tachometer wire and you will not needed to disable this features anymore. 
 
 ### Part 15
-  1. Temporarily plug the original Prusa hotend fan 40x40 (Noctua or Delta) on the Einsy Rambo
-  2. Run the self tests using `LCD Menu -> Calibration -> Selftest
-  3. Once the fan detection is done, plug back the E3D Revo Micro fan
-  4. Follow steps 14 to 16
+  1. Temporarily plug the original Prusa hotend fan 40x40 (Noctua or Delta):  
+    - [MK3(S, S+) guide](https://help.prusa3d.com/guide/8-electronics-assembly_174100#175539)
+    - [MK2.5(S, S+) guide](https://help.prusa3d.com/guide/4-electronics-assembly_62856#62944)
+  3. Run the self tests using `LCD Menu -> Calibration -> Selftest`
+  4. Once the fan detection is done, plug back the E3D Revo Micro fan
+  5. Follow steps 14 to 16
 
 > [! WARNING]
 > Any issues reported during the self test must be fixed before continuing further.
