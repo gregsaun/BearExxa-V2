@@ -57,7 +57,8 @@ You can use the default PrusaSlicer print profile *0.20mm QUALITY @MK3* with 4 p
   - External perimeters width : 0.45mm
   - Support : No
   - Brim : No
-  - Detect thin walls : No
+  - Detect thin walls : No
+
 
 
 ### Filament type
