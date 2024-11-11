@@ -15,6 +15,7 @@ The hardware list below is to build the extruder and X from scratch. It does inc
 | M3x10 (ISO 4762)                                    |     6    |                                       |         no        |
 | M3x18 (ISO 4762)                                    |     9    |                                       |         no        |
 | M3 hex nut (ISO 4032)                               |    10    |                                       |         no        |
+| M3 hex nylock nuts (DIN 985)                        |     2    |                                       |         no        |
 | Dowel pin, dia 2.90mm +/-0.05, length 15.8mm +/-0.1 |     1    | Cut an M3 screw if you can't find one |         no        |
 | 2GT 16T pulley 5mm bore                             |     1    |                                       |        yes        |
 | 2GT 20T idler 3mm bore                              |     1    |                                       |        yes        |
