@@ -132,6 +132,7 @@ Configurations needed for steppers and extruder values.
 
   - Multicolour with MMU or ERCF: [optional_parts/mmu_ercf](optional_parts/mmu_ercf)
   - Reverse Bowden: [optional_parts/reverse_bowden](optional_parts/reverse_bowden)
+  - X-end tensioner for E3D toothed idler: [optional_parts/x_end_idler_tensioner_e3d](optional_parts/x_end_idler_tensioner_e3d)
 
 Click here to download all optional parts (v2.0.0-beta.6):
 
@@ -149,7 +150,7 @@ Find optional parts designed by the community at [guides.bear-lab.com/Wiki/commu
 > The official kit is not yet available. Will be sold for the first RC release.
 
 ### What's included
-  - Custom stepper by LDO Motors (read the [Design Goals](doc/design_goals.md) for more information)
+  - Custom extruder motor by LDO Motors (read the [Design Goals](doc/design_goals.md) for more information)
   - Hotend fan with tachometer wire to pass Prusa firmware self tests and have extra safety
   - Quality toothed idler with dual bearings and correctly sized flanges
   - Wires and textile sleeve for a clean wiring
@@ -160,9 +161,9 @@ Find optional parts designed by the community at [guides.bear-lab.com/Wiki/commu
 As the kit is dedicated to Original Prusa printers the kit doesn't include:
   - Z axis Lead screw nuts
   - X axis smooth rods
-  - X and Z axis bearings
+  - X and Z axis linear bearings
   - X axis motor
-  - Filament sensor ball and magnets
+  - Filament sensor PCB, ball and magnets
   - SuperPinda (or Pinda v2)
 
 To allow flexibility on the hotend side the kit doesn't include:
@@ -173,11 +174,11 @@ To allow flexibility on the hotend side the kit doesn't include:
 
 ## Community
 
-* Discord server of "The 602 Wasteland" community : [discordapp.com/invite/hYUjSnW](https://discordapp.com/invite/hYUjSnW)
-* Bluesky : [@gregsaunier.bsky.social](https://bsky.app/profile/gregsaunier.bsky.social)
-* Mastodon : [fosstodon.org/@bear_lab](https://fosstodon.org/@bear_lab)
-* GitHub : [github.com/gregsaun](https://github.com/gregsaun)
-* Twitter / X : [@gregoiresaunier](https://x.com/gregoiresaunier)
+* Discord server "The 602 Wasteland": [discordapp.com/invite/hYUjSnW](https://discordapp.com/invite/hYUjSnW)
+* Bluesky: [@gregsaunier.bsky.social](https://bsky.app/profile/gregsaunier.bsky.social)
+* Mastodon: [fosstodon.org/@bear_lab](https://fosstodon.org/@bear_lab)
+* GitHub: [github.com/gregsaun](https://github.com/gregsaun)
+* Twitter / X: [@gregoiresaunier](https://x.com/gregoiresaunier)
 
 Do not hesitate to ask if you have a question.
 
