@@ -174,9 +174,10 @@ To allow flexibility on the hotend side the kit doesn't include:
 ## Community
 
 * Discord server of "The 602 Wasteland" community : [discordapp.com/invite/hYUjSnW](https://discordapp.com/invite/hYUjSnW)
-* Twitter / X : [@gregoiresaunier](https://x.com/gregoiresaunier)
+* Bluesky : [@gregsaunier.bsky.social](https://bsky.app/profile/gregsaunier.bsky.social)
 * Mastodon : [fosstodon.org/@bear_lab](https://fosstodon.org/@bear_lab)
 * GitHub : [github.com/gregsaun](https://github.com/gregsaun)
+* Twitter / X : [@gregoiresaunier](https://x.com/gregoiresaunier)
 
 Do not hesitate to ask if you have a question.
 
