@@ -217,4 +217,6 @@ The Bear EXtruder and X Axis v2 (BearExxa V2) is an open-source hardware project
 
 All texts, images, PDF files and animations in this repository are licensed under the terms of the CC-BY-SA 4.0 license. The full license text of CC-BY-SA 4.0 is available in this repository at [`./LICENSE-CC-BY-SA-4.0`](./LICENSE-CC-BY-SA-4.0). Read more about this license [here](https://creativecommons.org/licenses/by-sa/4.0/).
 
-All content in this repository, except for texts, images, PDF files and animations is licensed under the terms of the CERN-OHL-P v2 license. The full license text of CERN-OHL-P v2 is available in this repository at [`./LICENSE`](./LICENSE). Read more about this license [here](https://cern-ohl.web.cern.ch/).
+All gcode files in this repository are licensed under the terms of the MIT license. The full license text of MIT is available in this repository at [`./LICENSE-MIT`](./LICENSE-MIT). Read more about this license [here](https://opensource.org/license/MIT).
+
+All content in this repository, except for texts, images, PDF files, animations and gcode files is licensed under the terms of the CERN-OHL-P v2 license. The full license text of CERN-OHL-P v2 is available in this repository at [`./LICENSE`](./LICENSE). Read more about this license [here](https://cern-ohl.web.cern.ch/).
