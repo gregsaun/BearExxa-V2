@@ -18,11 +18,13 @@ In the folder [prusa_original](prusa_original) you will find the following files
   - `bearexxa2_config.gcode`: Use this file to setup microstepping and estep.
   - `reset_config_to_prusa_mk2.5-2.5s-3-3s.gcode`: Use this file to reset changes previously applied for BearExxa v2 to stock Prusa config.
 
+> [!WARNING]
+> These GCODE files only applyto Prusa firmware and **not** to Prusa AIO or Klipper.
+
 ### Prusa AIO firmware (Marlin 2.x)
 
 BearExya V2 is officially supported by the Prusa AIO firmware. Please refer to the [GitHub](https://github.com/thisiskeithb/PrusaAIO) and [wiki](https://github.com/thisiskeithb/PrusaAIO/wiki) for the configuration.
 
-> :warning: **These GCode files do not apply to the Klipper firmware. If you are using Klipper, please refer to the section below instead.**
 
 ### Klipper
 
@@ -35,8 +37,8 @@ full_steps_per_rotation: 200
 gear_ratio: 2.94:1
 sensor_type: ATC Semitec 104NT-4-R025H42G
 ```
-
-> :exclamation: These are not complete configurations. Please adjust your configuration to reflect the values below.
+> [!WARNING]
+> These are not complete configurations. Please adjust your configuration to reflect the values below.
 
 #### Extruder motor driver
 For TMC2209 and TMC2130 using the Klipper extension  [klipper_tmc_autotune](https://github.com/andrewmcgr/klipper_tmc_autotune).
@@ -50,7 +52,8 @@ For TMC2209 and TMC2130 using the Klipper extension  [klipper_tmc_autotune](http
 ```yaml
 run_current: .3
 ```
-> :information_source: Using the TMC Autotune extension is not a requirement, and these motor currents are only a recommendation.
+> [!NOTE]
+> Using the TMC Autotune extension is not a requirement, and these motor currents are only a recommendation.
 > 
 > Please adjust these values according to the motors you are using, ideally >50% and <80% of the rated current.
 
