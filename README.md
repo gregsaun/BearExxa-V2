@@ -15,7 +15,7 @@
   1. [Configuration](#configuration)
   1. [Optional Parts](#optional-parts)
   1. [Official Kit](#official-kit)
-  1. [Community](#community)
+  1. [Community And Help](#community-and-help)
   1. [Support My Work](#support-my-work)
   1. [Credits And Thank you](#credits-and-thank-you)
   1. [License](#license)
@@ -172,13 +172,13 @@ To allow flexibility on the hotend side the kit doesn't include:
   - E3D Revo nozzle
 
 
-## Community
+## Community And Help
 
-* Discord server "The 602 Wasteland": [discordapp.com/invite/hYUjSnW](https://discordapp.com/invite/hYUjSnW)
-* Bluesky: [@gregsaunier.bsky.social](https://bsky.app/profile/gregsaunier.bsky.social)
-* Mastodon: [fosstodon.org/@bear_lab](https://fosstodon.org/@bear_lab)
-* GitHub: [github.com/gregsaun](https://github.com/gregsaun)
-* Twitter / X: [@gregoiresaunier](https://x.com/gregoiresaunier)
+- Bluesky: [@gregsaunier.bsky.social](https://bsky.app/profile/gregsaunier.bsky.social)
+- Discord server "The 602 Wasteland": [discordapp.com/invite/hYUjSnW](https://discordapp.com/invite/hYUjSnW)
+- GitHub: [github.com/gregsaun](https://github.com/gregsaun)
+- Mastodon: [fosstodon.org/@bear_lab](https://fosstodon.org/@bear_lab)
+- Patreon: [patreon.com/gregsaun](https://www.patreon.com/gregsaun)
 
 Do not hesitate to ask if you have a question.
 
@@ -186,9 +186,10 @@ Do not hesitate to ask if you have a question.
 ## Support My Work
 
 The bear project is made possible thanks to its supporters. You can help via
-* Patreon: [patreon.com/gregsaun](https://www.patreon.com/gregsaun)
-* PayPal: [paypal.me/gregsaun](https://www.paypal.me/gregsaun)
-* GitHub Sponsor: [github.com/sponsors/gregsaun](https://github.com/sponsors/gregsaun)
+
+- Patreon: [patreon.com/gregsaun](https://www.patreon.com/gregsaun)
+- PayPal: [paypal.me/gregsaun](https://www.paypal.me/gregsaun)
+- GitHub Sponsor: [github.com/sponsors/gregsaun](https://github.com/sponsors/gregsaun)
 
 Massive thank you in advance :heart:
 
@@ -202,7 +203,7 @@ Massive thank you in advance :heart:
 - [Bondtech](https://www.bondtech.se) for providing free IDGA gears for development
 - The [fan duct knob](https://www.printables.com/model/113157-bear-extruder-v1-fan-duct-knob) by Amelia Marie Collins
 - [René Jurack](https://rene-jurack.de) for helping me on CFD simulation for the nozzle fan duct
-- The 602 Wasteland Discord community for their precious knowledge, advice and great talks
+- [Credits from BearExxa V1](https://github.com/gregsaun/bear_extruder_and_x_axis?tab=readme-ov-file#credit-and-inspiration) related to X Ends: Vecko Kojchevski, Arnaud Rousseau and Jon Madden
 - Keith Bennett for making the [Prusa AIO firmware](https://github.com/thisiskeithb/PrusaAIO) compatible
 - [PoiTEE](https://x.com/PoiTEE) for the great talks and testing
 - [FilamentFrenzy](https://x.com/FilamentFrenzy) for having tested and make noise for an early version
@@ -218,6 +219,6 @@ The Bear EXtruder and X Axis v2 (BearExxa V2) is an open-source hardware project
 
 All texts, images, PDF files and animations in this repository are licensed under the terms of the CC-BY-SA 4.0 license. The full license text of CC-BY-SA 4.0 is available in this repository at [`./LICENSE-CC-BY-SA-4.0`](./LICENSE-CC-BY-SA-4.0). Read more about this license [here](https://creativecommons.org/licenses/by-sa/4.0/).
 
-All gcode files in this repository are licensed under the terms of the MIT license. The full license text of MIT is available in this repository at [`./LICENSE-MIT`](./LICENSE-MIT). Read more about this license [here](https://opensource.org/license/MIT).
+All G-code files in this repository are licensed under the terms of the MIT license. The full license text of MIT is available in this repository at [`./LICENSE-MIT`](./LICENSE-MIT). Read more about this license [here](https://opensource.org/license/MIT).
 
-All content in this repository, except for texts, images, PDF files, animations and gcode files is licensed under the terms of the CERN-OHL-P v2 license. The full license text of CERN-OHL-P v2 is available in this repository at [`./LICENSE`](./LICENSE). Read more about this license [here](https://cern-ohl.web.cern.ch/).
+All content in this repository, except for texts, images, PDF files, animations and G-code files is licensed under the terms of the CERN-OHL-P v2 license. The full license text of CERN-OHL-P v2 is available in this repository at [`./LICENSE`](./LICENSE). Read more about this license [here](https://cern-ohl.web.cern.ch/).
