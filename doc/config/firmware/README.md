@@ -45,7 +45,7 @@ run_current: .42
 #### X axis motor driver
 For TMC2209 and TMC2130 using the Klipper extension  [klipper_tmc_autotune](https://github.com/andrewmcgr/klipper_tmc_autotune).
 ```
-run_current: .3
+run_current: .5
 ```
 
 ### Generic
@@ -64,12 +64,11 @@ Hotend thermistor: Semitec 104NT-4-R025H42G
 ```
 
 #### X axis
-> [!NOTE]
-> Those are the same values as found in the [MK3.5 configuration of the Prusa Buddy firmware 6.1.3](https://github.com/prusa3d/Prusa-Firmware-Buddy/blob/f1de0fce157875165afc102b016f3f3fc84008ef/include/marlin/Configuration_MK3.5_adv.h#L1563)
+
 ```
 Number of steps per motor rotation: 200
 Microsteps: 16
-Running current: 300mA RMS
+Running current: 500mA RMS
 Holding current: 300mA RMS
 Interpolation: true
  ```
