@@ -31,7 +31,7 @@ This is the repository for the Bear EXtruder and X Axis version 2 (BearExxa V2).
 ## Features
 
   - Compatible with stock Prusa MK2.5(S, S+) and MK3(S, S+) hardware as well as Bear frame
-  - High print quality by solving both repetitive and random extrusion artifacts
+  - High print quality by solving both repetitive and random extrusion artifacts. Read our detailed [Design Goals](extra/design_goals.md) for more details
   - High torque and cold extruder motor for the best reliability and print quality in all conditions
   - Light print head without compromising features
   - Short filament path
@@ -49,7 +49,7 @@ This is the repository for the Bear EXtruder and X Axis version 2 (BearExxa V2).
   - Detailed assembly guides and documentation
   - Fully open source
  
-:arrow_right: [Read our detailed Design Goals](doc/design_goals.md) to understand how we engineered those features.
+:arrow_right: [Read our detailed Design Goals](extra/design_goals.md) to understand how we engineered those features.
 
 
 ## Disclaimer
@@ -61,7 +61,7 @@ This project is only to provide an alternative extruder and X axis to your Prusa
 
 Status: Currently building the repository for the Beta release
 
-This project is on hold for now. It's provided "as is" for any adventurous users interested in having a good extruder for their Prusa or Bear. The beta version of the BearExxa V2 provided here is fully functional and safe to use. The end goal is to provide a kit with all the parts and an improved stepper and hardware for better print quality and reliability (read our [Design Goals](doc/design_goals.md)).
+This project is on hold for now. It's provided "as is" for any adventurous users interested in having a good extruder for their Prusa or Bear. The beta version of the BearExxa V2 provided here is fully functional and safe to use. The end goal is to provide a kit with all the parts and an improved stepper and hardware for better print quality and reliability (read our [Design Goals](extra/design_goals.md)).
 
 
 ## How To
@@ -150,7 +150,7 @@ Find optional parts designed by the community at [guides.bear-lab.com/Wiki/commu
 > The official kit is not yet available. Will be sold for the first RC release.
 
 ### What's included
-  - Custom extruder motor by LDO Motors (read the [Design Goals](doc/design_goals.md) for more information)
+  - Custom extruder motor by LDO Motors (read the [Design Goals](extra/design_goals.md) for more information)
   - Hotend fan with tachometer wire to pass Prusa firmware self tests and have extra safety
   - Quality toothed idler with dual bearings and correctly sized flanges
   - Wires and textile sleeve for a clean wiring

@@ -19,7 +19,7 @@ The main goals of the BearExxa V2 are to use a better hotend and geared extruder
 
 There are several ways to achieve this and it's a question of what compromises you do and how you test things. In this page we describe our design process and the goals we have set to achieve the BearExxa V2.
 
-![BearExxa V2 assembly](../extra/images/assembly_01.jpg)
+![BearExxa V2 assembly](images/assembly_01.jpg)
 
 
 ### Print quality
@@ -32,7 +32,7 @@ The first crucial aspect to get quality prints is to handle the filament precise
 
 To achieve this we use a perfectly aligned, short and smooth filament path to reduce any potential friction. The path is shorter than on the original MK3(S, S+).
 
-![BearExxa V2 filament path length comparison](../extra/images/filament_path_comparison.jpg)
+![BearExxa V2 filament path length comparison](images/filament_path_comparison.jpg)
 
 We use a NEMA 17 pancake motor to keep the hobb gears and its cavity as cold as possible, even on long PLA prints in enclosure with doors closed. This helps to keep the filament as rigid as possible before the hotend and so increase precision.
 
@@ -40,11 +40,11 @@ We are also using the small set of the dual Bondtech hobb gears as its small dia
 
 Then comes the hotend, we chose the E3D Revo because we have observed that it's particularly good at reducing random artifacts on perimeters compared to some competitors we have evaluated or tested. But it needs a good control of the filament on both cold and hot sides, so we took care of the airflow and thermal management to get a very sharp thermal transition in the heatbreak. This is achieved with the Revo Micro heatsink, a properly sized fan and a careful aiflow's management.
 
-![BearExxa V2 Hotend and its fan](../extra/images/e3d_revo_micro_02.jpg)
+![BearExxa V2 Hotend and its fan](images/e3d_revo_micro_02.jpg)
 
 Furthermore, we made sure to have a free space right below the heatsink to cool this side as well with the movements of the tool head. It's important because the bottom side of the heatsink is where it matter the most for the heatbreak.
 
-![BearExxa V2 hotend cooling](../extra/images/e3d_revo_fan_02.jpg)
+![BearExxa V2 hotend cooling](images/e3d_revo_fan_02.jpg)
 
 All these features **improve random extrusion artifacts and increase the accuracy** of your prints.
 
@@ -79,7 +79,7 @@ After multiple testing with belts and planetary gearboxes we found that a single
 
 We use the Bondtech gear shaft and hobb gears, but we replaced the original bearings by larger ones to increase lifespan (and smoothness).
 
-![BearExxa V2 bearings](../extra/images/bearing_02.jpg)
+![BearExxa V2 bearings](images/bearing_02.jpg)
 
 We use the E3D Revo Micro hotend for its professional support and compliances with worldwide regulations. We optimized the hotend airflow for the best heatbreak performance possible, low noise and to avoid grabbing tiny hairs (strings).
 
@@ -87,7 +87,7 @@ We placed the nozzle fan blower in vertical to maximise the lifespan of its bear
 
 Unlike the Original Prusa MK3S and MK3S+ extruder, the filament path is in one piece to avoid a potential misalignment during assembly that would affect its smoothness. It's also shorter than the original Prusa extruder.
 
-![BearExxa V2 unibody filament path](../extra/images/unibody_filament_path.jpg)
+![BearExxa V2 unibody filament path](images/unibody_filament_path.jpg)
 
 Every printed parts and features have been tested carefully. When rigidity or brittleness could be affected we made internal reinforcements within the infill to reduce any risks.
 
@@ -125,25 +125,25 @@ Finally, the motor specs are optimized for original Prusa printers to provide a 
 
 Thanks to the E3D Revo ecosystem you can swap nozzles with two fingers in a few seconds. And to make this even easier, you can remove the hotend fan duct with a thumb screw.
 
-![BearExxaV2 Thumb screw nozzle fan duct shroud](../extra/images/e3d_revo_fan_01.jpg)
+![BearExxaV2 Thumb screw nozzle fan duct shroud](images/e3d_revo_fan_01.jpg)
 
 The hobb gear tension has a visual adjustment for the nominal tension.
 
 The belt tensioner is easy to use and has a long adjustment range.
 
-![BearExxa V2 belt tensioner](../extra/images/belt_tensioner.jpg)
+![BearExxa V2 belt tensioner](images/belt_tensioner.jpg)
 
 You only need to remove 4 screws and unplug the motor cable to access the gearing, the hobb gears, the filament sensor and the top of the PTFE tube. Cleaning and maintenance are a breeze and quick.
 
-![BearExxa V2 removing motor anf gears](../extra/images/bearexxa_v2_stepper_remove_800p.gif)
+![BearExxa V2 removing motor anf gears](images/bearexxa_v2_stepper_remove_800p.gif)
 
 We invented a self tightening groove mount that blocks the rotation of the Revo Micro heatsink thread. Like this there are zero chances to unscrew the heatsink when swapping nozzles.
 
-![E3D Revo self tightening groove mount](../extra/images/e3d_revo_micro_mount_02.jpg)
+![E3D Revo self tightening groove mount](images/e3d_revo_micro_mount_02.jpg)
 
 The back of the X carriage is made into two parts to access all the wiring and the belt freely.
 
-![BearExxa V2 X carriage back](../extra/images/x_carriage_back.gif)
+![BearExxa V2 X carriage back](images/x_carriage_back.gif)
 
 
 ### Safety
