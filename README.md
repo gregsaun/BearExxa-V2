@@ -31,7 +31,7 @@ This is the repository for the Bear EXtruder and X Axis version 2 (BearExxa V2).
 ## Features
 
   - Compatible with stock Prusa MK2.5(S, S+) and MK3(S, S+) hardware as well as Bear frame
-  - High print quality by solving both repetitive and random extrusion artifacts. Read our detailed [Design Goals](extra/design_goals.md) for more details
+  - High print quality by solving both repetitive and random extrusion artifacts. Read our [Design Goals](extra/design_goals.md) for more information
   - High torque and cold extruder motor for the best reliability and print quality in all conditions
   - Light print head without compromising features
   - Short filament path
