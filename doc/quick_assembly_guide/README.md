@@ -51,18 +51,27 @@ Then Assemble the X Axis :
 [![Part 9](images/quick_assembly_09.jpg)](images/quick_assembly_09.jpg)
 
 ### Part 12
-Finally, follow our guide "Final adjustments and calibration" like this:
+Route and connect all wires as explained in the Prusa assembly guide.
+  - [MK2.5S guide](https://help.prusa3d.com/guide/4-electronics-assembly_62856)
+  - [MK3S guide](https://help.prusa3d.com/guide/8-electronics-assembly_34416)
+  - [MK3S+ guide](https://help.prusa3d.com/guide/8-electronics-assembly_174100)
+
+For MK3(S, S+), connect the E3D hotend fan cable like this (left: ground, middle: positive, right: not connected):
+![Hotend fan wiring MK3](images/quick_assembly_10.jpg)
+
+### Part 13
+Follow our guide "Final adjustments and calibration" to set the (Super)Pinda height, adjust the belt tension and flash the Bear calibration firmware:
   1. With a web browser, go to [https://guides.bear-lab.com -> Extruder and X Axis -> Bear Extruder> Assembly guide -> 5. Final adjustments and calibration](https://guides.bear-lab.com/Guide/5.+Final+adjustments+and+calibration/38?lang=en)
   1. Follow steps 1 to 12
 
-### Part 13
+### Part 14
 We now need to configure extruder steps per millimeters to 415 and microstepping to 1/16. You can do this with the provided gcode file :
   1. In the downloaded BearExxa v2 files, go to [config/firmware/prusa_original/config_prusa/](/doc/config/firmware/prusa_original/) 
   1. Copy `bearexxa2_config.gcode` to an SD card
   1. Insert the SD card in your printer and print to `bearexxa2_config.gcode` file
   1. You can now remove the SD card and delete the file
 
-### Part 14
+### Part 15
 The current E3D Micro hotend fan does not have a tachometer wire so we need to deactivate the fan check:
   1. In the LCD menu, go to `Settings -> Fans Check`
   1. Select `OFF`
@@ -70,7 +79,7 @@ The current E3D Micro hotend fan does not have a tachometer wire so we need to d
 > [!TIP]
 > The official kit will contains a fan with the tachometer wire and you will not needed to disable this features anymore. 
 
-### Part 15
+### Part 16
   1. Temporarily plug the original Prusa hotend fan 40x40 (Noctua or Delta):  
     - [MK3(S, S+) guide](https://help.prusa3d.com/guide/8-electronics-assembly_174100#175539)
     - [MK2.5(S, S+) guide](https://help.prusa3d.com/guide/4-electronics-assembly_62856#62944)
@@ -82,7 +91,7 @@ The current E3D Micro hotend fan does not have a tachometer wire so we need to d
 > Any issues reported during the self test must be fixed before continuing further.
 
 
-### Part 16 (Optional)
+### Part 17 (Optional)
 This step is optional. It explains how to use the latest Prusa firmware but it's not a necessity nor safer. You can use the Bear calibration firmware to print as a normal Prusa firmware.
 
 First we need to flash the latest Prusa firmware:
@@ -107,5 +116,5 @@ Finally we need to disable the new "Thermal Model" for the hotend to rollback to
 > [!TIP]
 > You can find more information on the Prusa website about the [experimental menu here](https://help.prusa3d.com/article/experimental-menu-mk3-s-_161213) and the new  ["Thermal Model" here](https://help.prusa3d.com/article/thermal-model-calibration_382488).
 
-### Part 17
+### Part 18
 All done, enjoy the new extruder and X axis :)
