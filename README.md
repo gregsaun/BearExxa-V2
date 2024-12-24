@@ -71,7 +71,7 @@ How to print, build and start using the BearExxa V2:
 1. Read the [Project Status](#project-status), [Disclaimer](#disclaimer) and [Compatibility](#compatibility) to make sure you agree to the limitations
 2. Buy the official BearExxa v2 kit or gather the parts using the [BOM](#bill-of-materials)
 3. Buy the filament according to the [Print Settings](#print-settings)
-4. [Download](#download) the BearExxa V2 printed parts and documentation
+4. [Download](#download) the BearExxa V2 printed parts
 5. Calibrate your filaments with our [Calibration Guide](https://guides.bear-lab.com/Guide/Extrusion+multiplier+and+filament+diameter/8)
 6. Slice and print the parts according to the [Print Settings](#print-settings)
 7. Follow the [Assembly Guide](#assembly-guide)
@@ -95,9 +95,9 @@ The BOM includes the list of printed parts and hardware needed.
 
 ## Download
 
-Click here to download the recommended version (v2.0.0-beta.6):
+Click here to download the printed parts for currently the recommended version (v2.0.0-beta.6):
 
-[![Static Badge](https://img.shields.io/badge/download_bearexxa_v2_files-blue?style=for-the-badge)](../../releases/download/2.0.0-beta.6/bearexxa2.zip)
+[![Static Badge](https://img.shields.io/badge/download_bearexxa_v2_files-blue?style=for-the-badge)](../../releases/download/2.0.0-beta.6/bearexxa2_printed_parts.zip)
 
 
 
