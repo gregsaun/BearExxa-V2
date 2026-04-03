@@ -119,4 +119,19 @@ Finally we need to disable the new "Thermal Model" for the hotend to rollback to
 > You can find more information on the Prusa website about the [experimental menu here](https://help.prusa3d.com/article/experimental-menu-mk3-s-_161213) and the new  ["Thermal Model" here](https://help.prusa3d.com/article/thermal-model-calibration_382488).
 
 ### Part 18
+
+We will now configure PrusaSlicer.
+
+We need to reverse the slicing movements to avoid unscrewing the Revo nozzle and reduce the default retraction length as this extruder is more efficient:
+  1. In `Printers -> General -> Advanced` check "Prefer clockwise movements"
+  2. In `Printers -> Extruder 1 -> Retraction` set "Retraction length" to 0.4mm (good value for PLA, PETG is more around 0.5-0.6mm)
+  3. Save your printer profile
+  
+You will then have to recalibrate your filament profiles for the two following values:
+  1. Retune the extrusion multiplier
+  2. Retune the Pressure Advance (PA), it may be a little lower compared to stock extruder or BearExxa V1 but it also depends on your print speed. You can change the K value in `Filaments -> Custom G-code -> Start G-code`
+
+Finally if you like to customise your printer's start G-code have a look to the example provided at [/extra/ps_startgcode_bear_mk3s_bex2.gcode](/extra/ps_startgcode_bear_mk3s_bex2.gcode)
+
+### Part 19
 All done, enjoy the new extruder and X axis :)
