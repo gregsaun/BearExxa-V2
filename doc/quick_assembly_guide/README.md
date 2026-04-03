@@ -42,6 +42,8 @@ Then Assemble the X Axis :
 [![Part 6](images/quick_assembly_06.jpg)](images/quick_assembly_06.jpg)
 
 ### Part 9
+The connectors should be wired as shown in the image. You may have to swap some wires on the connectors to match the image.
+
 [![Part 7](images/quick_assembly_07.jpg)](images/quick_assembly_07.jpg)
 
 ### Part 10
