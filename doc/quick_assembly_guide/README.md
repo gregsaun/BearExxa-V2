@@ -131,7 +131,8 @@ You will then have to recalibrate your filament profiles for the two following v
   1. Retune the extrusion multiplier
   2. Retune the Pressure Advance (PA), it may be a little lower compared to stock extruder or BearExxa V1 but it also depends on your print speed. You can change the K value in `Filaments -> Custom G-code -> Start G-code`
 
-Finally if you like to customise your printer's start G-code have a look to the example provided at [/extra/ps_startgcode_bear_mk3s_bex2.gcode](/extra/ps_startgcode_bear_mk3s_bex2.gcode)
+> [!TIP]
+> If you like to customise your printer's start G-code have a look to the example provided at [/extra/ps_startgcode_bear_mk3s_bex2.gcode](/extra/ps_startgcode_bear_mk3s_bex2.gcode)
 
 ### Part 19
 All done, enjoy the new extruder and X axis :)
