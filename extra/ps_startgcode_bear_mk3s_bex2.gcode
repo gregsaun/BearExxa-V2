@@ -41,7 +41,7 @@ G28 W                               ; home all without mesh bed level
 M117 ALIGN Z AXIS                   ; message
 G0 X125 Y200 Z200 F1000             ; move to top (with margin when doing homing after)
 G92 Z0                              ; set current position as zero (necessary to go over max Z print height)
-G0 Z13 F200                         ; crash into Z tops to sync both side of Z axis
+G0 Z8 F200                         ; crash into Z tops to sync both side of Z axis
 G0 Z0 F1000                         ; go lower for homing with avoiding crashing into Z tops again
 G0 Z-200 F1000                      ; reset current position for PrusaSlicer
 G92 Z0                              ; reset current position for PrusaSlicer
@@ -75,9 +75,9 @@ M104 S[first_layer_temperature]     ; set extruder temp
 G81                                 ; check mesh leveling results for octopring plugin
 M109 S[first_layer_temperature]     ; wait for extruder temp
 G1 Z0.2 F1000.0                     ; lower Z for intro line
-; ------
 G1 X60.0 E9.0 F1000.0               ; intro line
-G1 X100.0 E12.5 F1000.0             ; intro line
+;G1 X100.0 E12.5 F1000.0             ; intro line
+; ------
 
 G92 E0.0                            ; reset extruder position
 ;M221 S{if layer_height<0.075}100{else}95{endif}
